@@ -1,4 +1,4 @@
-# Installer ULX et ULIB
+# Changer le nom de son serveur
 
 * Allez dans le WebFTP du panel.
 
