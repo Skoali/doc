@@ -1,4 +1,4 @@
-# Rediriger un sous domaine à un serveur Minecraft sans avoir le port.
+# Rediriger un sous-domaine à un serveur Minecraft sans avoir le port.
 
 ### Paramétrage d'un pointeur SRV
 
