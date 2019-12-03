@@ -122,7 +122,7 @@ Ce qui donne :
 
 **Liens :**
 
-Vous pouvez mettre des liens en faisait :
+Vous pouvez mettre des liens en faisant :
 ```
 Lien vers [Skoali](https://skoali.com).
 ```
