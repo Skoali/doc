@@ -1,5 +1,5 @@
 ----------------------------------
-## Voici un tutoriel pour installer des modules npm pour Bots Discord.
+## Voici un tutoriel pour installer des modules NPM pour Bots Discord.
 
 ----------------------------------
 
