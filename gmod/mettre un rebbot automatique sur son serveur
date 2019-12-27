@@ -1,0 +1,23 @@
+Hey, 
+Aujourd'Hui, je vais vous montrer comment mettre un reebot automatique.
+
+Tous d'abord, il vous suffit d'accèdez au panel
+♦ d'aller dans "Tâche Planifié"
+♦ Cliquez sur "Ajouter"
+♦ Mettre comme nom "Reebot"
+♦ Mettre * dans "Jour de la semaine" et "Jour du mois"
+♦ Cliquez sur l'heure que vous voulez (si vous voulez 2 fois, faites CTRL+Left Click sur les plages horaires)
+♦ Mettre à "Après" "0" Secondes
+♦ Mettre dans Faire une action "Action d'Alimentation"
+♦ Et mettre dans "Commande" "restart"
+♦ Puis cliquer sur mettre à jour.
+
+Voilà, tous se fera automatiquement ce qui est pratique.
+
+Bon jeu !
+
+
+
+
+                                                                                                                -- Created by Ride InBike
+                                                                                                                      Buyer with Skoali
