@@ -1,0 +1,31 @@
+Comment mettre à jour son serveur Garry's Mod
+
+Hey !
+
+Aujourd'hui, je vais vous expliquer comment mettre à jour votre serveur Garry's Mod
+
+    Pour cela, il faut :
+- Allez sur son panel
+- Allez dans Fichier et SFTP
+- Cliquez sur "steamcmd"
+- Le supprimer
+- Puis redémarrer votre serveur.
+
+          /!\ Si vous êtes utiliser le Gamemode DARKRP et que le fichier à été update, il faudra le supprimer
+          
+            - Allez dans son panel
+            - Allez dans Fichier et SFTP
+            - Allez dans "garry'smod
+            - Allez dans gamemode
+            - selectionner le fichier DarkRP puis le supprimer
+            
+            - Allez dans Addon et GameModes
+            - Cliquez sur DarkRP 
+            - Redémarrer votre serveur
+            
+Voilà, c'est la fin de ce tuto.
+      Si vous avez le moindre problème,
+        Contacter moi sur discord en me mentionnant avec @Ride InBike#2713 
+        
+                                                                                                        -- Tutoriel réaliser par Ride InBike
+                                                                                                          Utilisation destiner à Skoali
