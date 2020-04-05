@@ -4,11 +4,11 @@
 
 :one: accédez à plesk via [l'espace de gestion](https://gestion.skoali.fr) de Skoali 
 
-:two: cliquez sur le bouton nommé "Connexion à Plesk Control Panel" ![Capture d'écran du bouton](https://github.com/Skoali/tutoriels/tree/master/images/ConnexionAPlesk.png)
+:two: cliquez sur le bouton nommé "Connexion à Plesk Control Panel" ![Capture d'écran du bouton](../images/ConnexionAPlesk.png)
 
-:three: cliquez sur le bouton "Paramètres d'hébergement" ![Capture d'écran du bouton](https://github.com/Skoali/tutoriels/tree/master/images/PleskParamétresHébergement.png)
+:three: cliquez sur le bouton "Paramètres d'hébergement" ![Capture d'écran du bouton](../images/PleskParamétresHébergement.png)
 
-:four: à droite du texte "Nom De Domaine" après le www. entrez le nouveau nom de domaine ![case pour le nom de domaine](https://github.com/Skoali/tutoriels/tree/master/images/PleskNomDeDomaine.png)
+:four: à droite du texte "Nom De Domaine" après le www. entrez le nouveau nom de domaine ![case pour le nom de domaine](../images/PleskNomDeDomaine.png)
 
 :five: En bas de la page cliquez sur le bouton APPLIQUER et OK pour que l'opération soit prise en compte
 
