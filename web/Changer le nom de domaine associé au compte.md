@@ -12,7 +12,7 @@
 
 :five: En bas de la page cliquez sur le bouton APPLIQUER et OK pour que l'opération soit prise en compte
 
-:warning: Si vous souhaitez mettre un nom de domaine en `.skoa.li` il suffit simplement de mettre `votreDomaine.skoa.li` à la place du nom de domaine custom, si vous souhaitez entrer votre propre nom de domaine que vous aurez acheté au préalable il suffit simplement de modifier les Nameserv en `ns1.skoali.fr` et `ns2.skoali.fr` 
+:warning: Si vous souhaitez mettre un nom de domaine en `.skoa.li` il suffit simplement de mettre `votreNom.skoa.li` à la place du nom de domaine custom, si vous souhaitez entrer votre propre nom de domaine que vous aurez acheté au préalable il suffit simplement de modifier les Nameservers en `ns1.skoali.fr` et `ns2.skoali.fr` 
 
 
 
