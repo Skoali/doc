@@ -11,7 +11,6 @@ exclude_rule 'MD033'
 exclude_rule 'MD036'
 exclude_rule 'MD040'
 exclude_rule 'MD041'
-exclude_rule 'MD046'
 
 rule 'MD003', :style => :atx
 rule 'MD007', :indent => 4
