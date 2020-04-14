@@ -2,12 +2,11 @@
 
 ## Installation :
 
-> Installation des dépandances
+> Installation des dépendances
 
 Commençons par installer les dépendances avec la commande suivante :
 
-    dpkg --add-architecture i386; sudo apt update; sudo apt install mailutils postfix curl wget file tar bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 lib32stdc++6 steamcmd libtinfo5:i386 netcat
-Quand il vous sera afficher "Do you want to continue? [Y/n]" appuyez sur votre touche entrée.
+    dpkg --add-architecture i386; apt update; apt install mailutils postfix curl wget file tar bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 lib32stdc++6 steamcmd libtinfo5:i386 netcat -y
 Si jamais il vous est affiché une grande page avec en bas "`<Ok>`" appuyez sur la touche TAB de votre clavier (Au dessus de la touche pour verrouiller la majuscule) de manière à ce que "`<Ok>`" soit surlignée en rouge. Ensuite il y aura une autre page affiché ou sera sélectionner par défaut "I DECLINE" déscendez et selectionnez "I AGREE" avec la flèche du bas de votre clavier puis appuyez sur entrée. Ensuite laissez l'installation ce terminée.
 
 > Création d'un utilisateur
@@ -47,6 +46,7 @@ Puis démarrez le serveur avec la commande :
 
     ./gmodserver start
 Si le message "[  OK  ] Starting gmodserver: LinuxGSM" s'affiche s'est que votre serveur a correctement été démarrer.
+
 Si le message "[ INFO ] Starting gmodserver: LinuxGSM is already running" : Cela veut dire que le serveur est déjà allumé.
 
 ## Arrêt du serveur
@@ -57,7 +57,8 @@ Puis arrêtez le serveur avec la commande :
 
     ./gmodserver stop
 Si le message "[  OK  ] Stopping gmodserver: Graceful: sending "quit": OK" s'affiche c'est que le serveur a correctement été éteint.
- Si le message "[ INFO ] Stopping gmodserver: LinuxGSM is already stopped" c'est que votre serveur est déjà éteint.
+
+Si le message "[ INFO ] Stopping gmodserver: LinuxGSM is already stopped" c'est que votre serveur est déjà éteint.
 ## Redémarrage du serveur
 Avant de redémarrer le serveur assurez vous d'être connecté sur l'utilisateur crée pour votre serveur Garry's Mod :
 
