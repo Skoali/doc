@@ -1,8 +1,8 @@
-# Netdata : Outils de monitoring simple et Opensource.
+# Netdata : Un outil de monitoring simple et opensource.
 
 ## Qu'est-ce qu'est Netdata ?
 
-Netdata et un outils de monitoring Opensource et simple à installer qui vous aidera à monitorer votre serveur.
+Netdata et un outil de monitoring opensource et simple à installer qui vous aidera à monitorer votre serveur.
 
 ## Images & Demo
 
@@ -12,7 +12,7 @@ Voici un lien de démo si vous voulez essayer : https://london.my-netdata.io
 
 ## Installation
 
-Pour l'installer c'est très simple, il suffit de faire la commande suivante : 
+Pour l'installer c'est très facile, il suffit de faire la commande suivante : 
 
 ``bash <(curl -Ss https://my-netdata.io/kickstart.sh)``
 
