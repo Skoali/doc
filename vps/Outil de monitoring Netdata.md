@@ -25,3 +25,26 @@ Quand l'installation sera terminée vous aurez ce message :
 Vous pourrez désormais accéder à votre netdata via votre navigateur à l'IP de votre VPS sur le port 19999.
 
 Exemple : http://123.256.789.012:19999
+
+## Désinstallation
+
+Pour désinstaller Netdata :
+
+Commencez par télécharger le script de désinstallation avec la commande suivante et donnez lui les permissions d'éxecution :
+
+```
+wget https://raw.githubusercontent.com/netdata/netdata/master/packaging/installer/netdata-uninstaller.sh
+chmod +x ./netdata-uninstaller.sh
+```
+
+Ensuite lancez le :
+
+```./netdata-uninstaller.sh --yes```
+
+Quand vous aurez les messages "Press ENTER to recursively delete directory" appuyez sur entrer jusqu'à avoir le message "Netdata files were successfully removed from your system".
+
+Supprimez le script de désinstallation avec la commande suivante :
+
+```rm netdata-uninstaller.sh```
+
+Ca y est, votre Netdata est désintaller !
