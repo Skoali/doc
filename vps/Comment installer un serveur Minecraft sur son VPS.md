@@ -91,7 +91,7 @@ Créons un fichier start.sh dans lequel nous allons mettre la commande de lancem
 `nano start.sh`
 
 Puis collez (avec un clic droit) ceci à l'intérieur :
-``java -Xms512M -Xmx10G -XX:+UseG1GC -XX:+ParallelRefProcEnabled  -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions  -XX:+DisableExplicitGC -XX:-OmitStackTraceInFastThrow  -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40  -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=8 -XX:InitiatingHeapOccupancyPercent=15  -XX:G1MixedGCLiveThresholdPercent=90  -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32  -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=true  -Daikars.new.flags=true -jar server.jar nogui``
+```java -Xms512M -Xmx10G -XX:+UseG1GC -XX:+ParallelRefProcEnabled  -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions  -XX:+DisableExplicitGC -XX:-OmitStackTraceInFastThrow  -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40  -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=8 -XX:InitiatingHeapOccupancyPercent=15  -XX:G1MixedGCLiveThresholdPercent=90  -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32  -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=true  -Daikars.new.flags=true -jar server.jar nogui```
 
 Notez quand même que vous devez modifier le `-Xmx10G` par le nombre de mémoire RAM que vous souhaitez lui allouer (1go = `-Xmx1G`, 2go = `-Xmx2G`, ...)
 
