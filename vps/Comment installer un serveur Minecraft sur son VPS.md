@@ -17,6 +17,7 @@ Si la commande ne fonctionne pas essayez celle-ci :
 apt install -y wget gnupg software-properties-common sudo
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
+apt update
 apt install adoptopenjdk-8-hotspot -y
 ```
 Et c'est bon ! Si vous n'avez eu aucune erreur et que plein de lignes ont défilées, notre Java est prêt à l'utilisation.
