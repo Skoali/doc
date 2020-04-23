@@ -18,7 +18,7 @@ apt install -y wget gnupg software-properties-common sudo
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 apt update
-apt install adoptopenjdk-8-hotspot -y
+apt install adoptopenjdk-8-hotspot wget screen nano -y
 ```
 Et c'est bon ! Si vous n'avez eu aucune erreur et que plein de lignes ont défilées, notre Java est prêt à l'utilisation.
 
@@ -56,6 +56,8 @@ Remplissez les cases comme décrites ci-dessous dans WinSCP puis cliquez sur "Co
 ![](../images/adresse-ip-vps.png)
 
 Une fois connecté, il vous suffira de créer un nouveau dossier, aller dans celui-ci, glisser déposer le fichier du serveur Minecraft en question et de renommer avec un clic droit en `server.jar`.
+
+(Par défaut les fichiers de la console avec l'utilisateur root se trouvent dans le dossier /root !!).
 
 C'est bon on peut passer à la suite !
 
