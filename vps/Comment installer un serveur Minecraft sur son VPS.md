@@ -8,10 +8,15 @@ Pour commencer, nous allons vérifier que notre VPS est à jour avec cette comma
 Une fois ces commandes passées très rapidement ⚡, nous allons pouvoir installer Java.
 
 **Attention, cette commande ou ce nom de paquet ne peut être valable sur certains systèmes d'exploitation comme Debian 10. Il faudra effectuer des recherches supplémentaires sur comment l'installer sur votre système incompatible.** Pour ma part j'utilise Ubuntu 18.04, je vous le conseille car il est extrêmement compatible avec la plupart des logiciels de l'heure d'aujourd'hui.
-
 Ducoup, pour installer Java 8 JDK, il suffit exécuter cette commande :
 
 `apt-get install openjdk-8-jdk wget screen -y`
+
+Si la commande ne fonctionne pas essayez celle-ci :
+`apt install -y wget gnupg software-properties-common`
+`wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -`
+`sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/`
+`apt install adoptopenjdk-8-hotspot -y`
 
 Et c'est bon ! Si vous n'avez eu aucune erreur et que plein de lignes ont défilées, notre Java est prêt à l'utilisation.
 
