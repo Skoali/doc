@@ -13,11 +13,12 @@ Ducoup, pour installer Java 8 JDK, il suffit exécuter cette commande :
 `apt-get install openjdk-8-jdk wget screen -y`
 
 Si la commande ne fonctionne pas essayez celle-ci :
-`apt install -y wget gnupg software-properties-common`
-`wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -`
-`sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/`
-`apt install adoptopenjdk-8-hotspot -y`
-
+```
+apt install -y wget gnupg software-properties-common
+wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
+sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/`
+apt install adoptopenjdk-8-hotspot -y
+```
 Et c'est bon ! Si vous n'avez eu aucune erreur et que plein de lignes ont défilées, notre Java est prêt à l'utilisation.
 
 ### 2. Télécharger la bonne version de Minecraft
