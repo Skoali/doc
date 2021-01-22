@@ -1,5 +1,5 @@
 # Installer un serveur privée AmongUS sur son VPS
-##Prérequis & dépendances 
+## Prérequis & dépendances 
 
 Pour suivre ce tutoriel vous devrez etre sur l'un des systeme d'exploitation suivant : 
 
@@ -15,7 +15,7 @@ Ensuite il faut installer .Net 5 qui permet de lancer le serveur among us privé
 
 **Pour Debian :**
 
-``wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+```wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 
 sudo dpkg -i packages-microsoft-prod.deb
 
@@ -27,7 +27,7 @@ sudo apt-get update
 
 apt-get install -y dotnet-sdk-5.0
 
-sudo apt-get install -y aspnetcore-runtime-5.0``
+sudo apt-get install -y aspnetcore-runtime-5.0```
 
 **Pour Ubuntu :**
 
