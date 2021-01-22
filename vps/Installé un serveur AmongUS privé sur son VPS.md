@@ -1,12 +1,12 @@
 # Installer un serveur privée AmongUS sur son VPS
 ## Prérequis & dépendances 
 
-Pour suivre ce tutoriel vous devrez etre sur l'un des systeme d'exploitation suivant : 
+Pour suivre ce tutoriel vous devrez être sur l'un des systeme d'exploitation suivant : 
 
 **Debian** : 10 ou 9
 **Ubuntu** :  20.10,   20.04 (LTS),  18.04 (LTS) ou 16.04 (LTS)
 
-Pour commencer, nous allons vérifier que notre VPS est à jour et que les programmes requis sont installés avec cette commande : 
+Pour commencer, nous allons vérifier que notre VPS est à jour et que les prérequis sont installés avec cette commande : 
 
  ``apt-get update && apt-get full-upgrade -y && apt install screen``
 
@@ -60,7 +60,7 @@ Normalement votre vps devrait ressemblé a ceci :
 
 ![indice2](../images/sftpimpostorserver.png)
 
-**Modifiez config.json et renseignez-y votre ip **
+**Modifiez config.json et renseignez-y votre ip**
 
 ## Lancer le serveur
 
@@ -82,11 +82,11 @@ Ensuite pour lancez votre serveur :
 
 ## Connectez vous au serveur
 
-Installer [ImpostorPatcher](https://ci.appveyor.com/api/buildjobs/1g7x9s6vkvr5wbqm/artifacts/build%2FImpostor-Patcher_1.2.2-ci.124_win-x64.zip), lancez le et renseignez-y votre ip :
+Installez [ImpostorPatcher](https://ci.appveyor.com/api/buildjobs/1g7x9s6vkvr5wbqm/artifacts/build%2FImpostor-Patcher_1.2.2-ci.124_win-x64.zip), lancez le et renseignez-y votre ip :
 
 ![image](../images/impostorpatcher.png)
 
-**C'est bon !** Lancez amongus, choissisez le serveur **"Impostor"** et connectez vous-y,partir de la vous pourrez jouer avec des mods, des plugins et presque sans lag. Si vous voulez savoir comment les installait, faites vos recherches sur google :
+**C'est bon !** Lancez amongus, choissisez le serveur **"Impostor"** et connectez vous-y, vous pouvez désormais jouer avec des mods, des plugins et presque sans lag. Si vous voulez savoir comment les installait, faites vos recherches sur google :
 
 - [Reddit du moddée](https://www.reddit.com/r/AmongUsMods/)
 - [Github du serveur privée](https://github.com/Impostor/Impostor)
