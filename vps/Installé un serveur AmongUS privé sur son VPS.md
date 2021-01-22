@@ -91,3 +91,5 @@ Installer [ImpostorPatcher](https://ci.appveyor.com/api/buildjobs/1g7x9s6vkvr5wb
 - [Reddit du moddée](https://www.reddit.com/r/AmongUsMods/)
 - [Github du serveur privée](https://github.com/Impostor/Impostor)
 - [Github des mods/plugins](https://github.com/topics/among-us)
+
+__Aide rédigé par Raphael#0666 membre de notre Discord__
