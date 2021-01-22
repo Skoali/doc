@@ -48,7 +48,7 @@ apt-get install -y dotnet-sdk-5.0
 sudo apt-get install -y aspnetcore-runtime-5.0
 ```
 
-##Télécharger le serveur
+## Téléchargez le serveur
 
 Télécharger la derniere version du serveur privée [ici](https://ci.appveyor.com/project/Impostor/Impostor/branch/dev/artifacts) et prenez la version *"Impostor-Server_1.2.2-ci.124_linux-x64.tar"*, Ensuite avec un logiciel de décompression comme [Winrar](https://www.win-rar.com/start.html?&L=10) ou  [Zzip](https://www.01net.com/telecharger/windows/Utilitaire/compression_et_decompression/fiches/101457.html), Extrayer les fichiers sur votre bureau 
 
@@ -62,7 +62,7 @@ Normalement votre vps devrait ressemblé a ceci :
 
 **Modifiez config.json et renseignez-y votre ip **
 
-##Lancer le serveur
+## Lancer le serveur
 
 ```chmod +x /path/vers/votre/Fichier.Server``` (modifier pour vous)
 
@@ -86,7 +86,7 @@ Installer [ImpostorPatcher](https://ci.appveyor.com/api/buildjobs/1g7x9s6vkvr5wb
 
 ![image](https://media.discordapp.net/attachments/790174003557957693/790300142048641044/unknown.png)
 
-**C'est bon ! ** Lancez amongus, choissisez le serveur **"Impostor"** et connectez vous-y,partir de la vous pourrez jouer avec des mods, des plugins et presque sans lag. Si vous voulez savoir comment les installait, faites vos recherches sur google :
+**C'est bon !** Lancez amongus, choissisez le serveur **"Impostor"** et connectez vous-y,partir de la vous pourrez jouer avec des mods, des plugins et presque sans lag. Si vous voulez savoir comment les installait, faites vos recherches sur google :
 
 - [Reddit du moddée](https://www.reddit.com/r/AmongUsMods/)
 - [Github du serveur privée](https://github.com/Impostor/Impostor)
