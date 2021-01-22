@@ -8,8 +8,7 @@ Pour suivre ce tutoriel vous devrez etre sur l'un des systeme d'exploitation sui
 
 Pour commencer, nous allons vérifier que notre VPS est à jour et que les programmes requis sont installés avec cette commande : 
 
- ``apt-get update && 
-apt-get full-upgrade -y && apt install screen ``
+ ``apt-get update && apt-get full-upgrade -y && apt install screen``
 
 Ensuite il faut installer .Net 5 qui permet de lancer le serveur among us privée :
 
