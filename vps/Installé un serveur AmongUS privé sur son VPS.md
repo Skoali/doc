@@ -14,7 +14,8 @@ Ensuite il faut installer .Net 5 qui permet de lancer le serveur among us privé
 
 **Pour Debian :**
 
-```wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+```
+wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 
 sudo dpkg -i packages-microsoft-prod.deb
 
@@ -26,11 +27,13 @@ sudo apt-get update
 
 apt-get install -y dotnet-sdk-5.0
 
-sudo apt-get install -y aspnetcore-runtime-5.0```
+sudo apt-get install -y aspnetcore-runtime-5.0
+```
 
 **Pour Ubuntu :**
 
-```wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb``` (modifier la version dans le lien pour choisir la votre)
+```
+wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb``` (modifier la version dans le lien pour choisir la votre)
 
 sudo dpkg -i packages-microsoft-prod.deb
 
@@ -42,7 +45,8 @@ sudo apt-get update
 
 apt-get install -y dotnet-sdk-5.0
 
-sudo apt-get install -y aspnetcore-runtime-5.0```
+sudo apt-get install -y aspnetcore-runtime-5.0
+```
 
 ##Télécharger le serveur
 
