@@ -80,7 +80,7 @@ Ensuite pour lancez votre serveur :
 
 **Bravo vous avez crée votre serveur amongus !**
 
-##Connectez vous au serveur
+## Connectez vous au serveur
 
 Installer [ImpostorPatcher](https://ci.appveyor.com/api/buildjobs/1g7x9s6vkvr5wbqm/artifacts/build%2FImpostor-Patcher_1.2.2-ci.124_win-x64.zip), lancez le et renseignez-y votre ip :
 
