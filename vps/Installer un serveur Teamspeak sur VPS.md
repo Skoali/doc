@@ -1,8 +1,10 @@
-# Rendez vous sur repertoire "home"
+# Installer un serveur TeamSpeak sur son VPS 
+
+## Rendez vous sur repertoire "home"
 
 ```cd /home```
 
-# Creez un dossier nomé "ts"
+## Creez un dossier nomé "ts"
 
 ```mkdir ts```
 
@@ -10,11 +12,11 @@ Allez dans le dossier que vous venez de creer
 
 ```cd ts```
 
-# Installez TeamSpeak
+## Installez TeamSpeak
 
 Vous pouvez à présent procéder à l’installation de TeamSpeak dans ce dossier. Pour ce faire, copiez et collez la commande suivante pour télécharger le fichier d’installation de TeamSpeak Server :
 
-```wget http://teamspeak.gameserver.gamed.de/ts3/releases/3.3.1/teamspeak3-server_linux_amd64-3.3.1.tar.bz2```
+```wget https://files.teamspeak-services.com/releases/server/3.13.6/teamspeak3-server_linux_amd64-3.13.6.tar.bz2```
 
 Une fois le fichier téléchargé dans le dossier, vous devez extraire son contenu à l’aide de la commande suivante:
 
