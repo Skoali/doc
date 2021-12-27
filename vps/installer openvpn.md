@@ -2,7 +2,7 @@ Introduction
 
 Vous allez apprendre a installer un serveur openvpn sur votre vps
 
-#Installation
+Installation
 1. Connectez-vous en SSH sur votre serveur GNU/Linux à l’aide du logiciel PuTTY par exemple.
 
 2. Mettez ensuite le système GNU/Linux à jour avec la commande suivante :
