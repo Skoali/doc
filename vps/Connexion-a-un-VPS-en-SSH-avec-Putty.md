@@ -1,6 +1,6 @@
 # Introduction
 
- Lors de la lecture de cet article, vous allez apprendre comment vous connecter en SSH à votre VPS à l'aide de Putty [Skoali](https://skoali.com).
+ Lors de la lecture de cet article, vous allez apprendre comment vous connecter en SSH à votre VPS à l'aide de Putty.
 
 # Sommaire
 - [Installation de Putty](#installation-de-putty)
@@ -16,7 +16,7 @@ Après télèchargement, installez le logiciel, ouvrez-le, ça devrait ressemble
 
 ## Préparation de donnès de connexion
 
-1) Rendez-vous sur le site officiel de skoali et connecter vous à votre espace client.
+1) Connectez vous à votre espace client.
 2) Cliquez sur la machine à la quelle vous souhaitais vous connecter. Vous devriez voir quelque chose comme sa.  
 En rouge, vous aurais l'ip de votre machine garder-la préciseuement, elle servira à vous connecter à votre vps.
 ![image](https://user-images.githubusercontent.com/76696559/147499694-4131d9d2-5469-4467-b42f-ac6a342b9b7a.png)
