@@ -1,6 +1,4 @@
-# Changer le nom de son serveur de jeu Garry's Mod
-
-* Dirigez vous vers la section "Gestionnaire de fichiers" du serveur dont vous souhaitez changer le nom.
+# Changer le nom de son serveur Garry's Mod
 
 * Allez dans le répertoire `/garrysmod/cfg/`.
 
