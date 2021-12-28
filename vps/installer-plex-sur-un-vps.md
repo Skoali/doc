@@ -1,8 +1,10 @@
-# Plex c'est quoi
+# Installer Plesk sur un VPS.
+
+## Plex c'est quoi
  
  Plex vous offre un seul endroit pour trouver et accéder à tous les médias qui vous intéressent. Des médias personnels sur votre propre serveur aux films et émissions gratuits et à la demande, en passant par la télévision en direct, les podcasts et les émissions Web, en passant par la musique en streaming, vous pouvez profiter de tout cela dans une seule application, sur n'importe quel appareil.
  
-# Installer Plex Media Serveur
+## Installer Plex Media Serveur
  
 ```
 sudo apt-get install curl
@@ -25,19 +27,16 @@ Suite à cela connectez vous à votre compte plex (dans la partie reglages)
  
 ![image](https://user-images.githubusercontent.com/60802587/147521434-213135f8-ef19-4bbd-9036-f58de8ca778c.png)
  
-# Ajoutez des bibliothèques
+## Ajoutez des bibliothèques
  
  Appuyez sur l'icône "+" à gauche, spécifiez le type de contenu, la langue, la descriptions et le dossier
  
  ![image](https://user-images.githubusercontent.com/60802587/147521587-0b1bb6cc-e9d1-4bdd-a131-f09a2ee9ccf6.png)
  
-# Lancer votre serveur
+## Lancer votre serveur
  
 Pour lancer votre serveur entrez la commande: `service plexmediaserver start`
  
 Pour arrêter votre serveur entrez la commande: `service plexmediaserver stop`
  
 Pour redémarrer votre serveur entrez la commande: `service plexmediaserver restart`
- 
- 
-
