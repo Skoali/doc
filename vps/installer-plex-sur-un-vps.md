@@ -1,4 +1,4 @@
-# Installer Plesk sur un VPS.
+# Installer Plex sur un VPS.
 
 ## Plex c'est quoi
  
