@@ -30,7 +30,8 @@ apt install git -y && git clone https://github.com/citizenfx/cfx-server-data.git
 `nano server.cfg`
 
 Copiez le contenu suivant dans le fichier :
-```# Only change the IP if you're using a server with multiple network interfaces, otherwise change the port only.
+```
+# Only change the IP if you're using a server with multiple network interfaces, otherwise change the port only.
 endpoint_add_tcp "0.0.0.0:30120"
 endpoint_add_udp "0.0.0.0:30120"
 
