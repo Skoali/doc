@@ -15,7 +15,7 @@ sudo apt-get install plexmediaserver
 ```
 Accéder à Plex avec l'url "http://votreip:32400/web"
  
-![image](https://user-images.githubusercontent.com/60802587/147521414-1ba5f098-da19-4aec-9302-4d66c5aa90ab.png)
+![image](/images/plexsettings.png)
  
 ### Liez votre serveur a Plex.tv
  
@@ -25,13 +25,13 @@ Vous y accéder maintenant avec l'url "https://localhost:32400/web"
  
 Suite à cela connectez vous à votre compte plex (dans la partie reglages)
  
-![image](https://user-images.githubusercontent.com/60802587/147521434-213135f8-ef19-4bbd-9036-f58de8ca778c.png)
+![image](/images/plexbibli.png)
  
 ## Ajoutez des bibliothèques
  
  Appuyez sur l'icône "+" à gauche, spécifiez le type de contenu, la langue, la descriptions et le dossier
  
- ![image](https://user-images.githubusercontent.com/60802587/147521587-0b1bb6cc-e9d1-4bdd-a131-f09a2ee9ccf6.png)
+ ![image](/images/plexbibli.png)
  
 ## Lancer votre serveur
  
