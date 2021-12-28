@@ -1,4 +1,4 @@
-# Installer Rocket.chat
+# Installer Rocket.chat sur un Debian et Ubuntu
 
 # Prérequis
 * Mongodb 
@@ -23,6 +23,8 @@ accedez a votre instance rocket.chat avec l'url: `http://IP-de-VOTRE-SERVEUR:300
 
 # Mise en place d'un reverse proxy Nginx
 
+Un reverse Proxy NGINX peut servir pour avoir un certificat SSL (https)
+
 ### Installer Nginx
 
 ```apt update && apt install nginx```
@@ -41,7 +43,7 @@ accedez a votre instance rocket.chat avec l'url: `http://IP-de-VOTRE-SERVEUR:300
 
 # Obtenir un certificat SSL avec "Let's Encrypt"
 
-![image](https://user-images.githubusercontent.com/60802587/147567607-447df691-34c7-480d-b265-10fb03829c10.png)
+![image](/images/letsencrypt.png)
 
 
 ### Istaller acme.sh
