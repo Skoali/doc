@@ -3,15 +3,15 @@
 # Prérequis
 * Mongodb 
 * NodeJS 
-* vps chez Skoali
 
-## Avec snap
+## Avec snap (Ubuntu uniquement)
 ```sudo snap install rocketchat-server```
 
-## Manuellement
+## Manuellement (Debian)
 
 Telecharger la derrniere vesion de rocket.chat:
-```curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz``` ou uiliser wget avec la comande `wget https://releases.rocket.chat/latest/download -O /tmp/rocket.chat.tgz`
+
+`wget https://releases.rocket.chat/latest/download -O /tmp/rocket.chat.tgz`
 
 Extraire l'archive: `tar xzf /tmp/rocket.chat.tgz -C /tmp`
 
@@ -73,7 +73,7 @@ acme.sh --install-cert -d chat.votredomaine.tld --ecc \
 ```
 
 ## Ajouter le certificat à votre configuration Nginx
-Créez le fichier `/var/www/chat.votredomaine.tld/conf/nginx/ssl.conf`qui sera automatiquement ajouté dans notre vhost grâce à la directive `include` ` /var/www/chat.votredomaine.tld/conf/nginx/*conf;`
+Créez le fichier `/var/www/chat.votredomaine.tld/conf/nginx/ssl.conf`qui sera automatiquement ajouté dans notre vhost grâce à la directive `include  /var/www/chat.votredomaine.tld/conf/nginx/*conf;`
 
 Son contenu est: 
 ```
