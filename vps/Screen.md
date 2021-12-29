@@ -3,14 +3,14 @@
 Lors de la lecture de cet articule vous allez apprendre ce qu'est Screen et comment l'utiliser.
 
 ## Sommaire
-- [Screen c'est quoi?](#screen-c'est-quoi?)
-- [Création d'un screen](#création-d'un-screen?)
-- [Quitter un screen](#quitter-un-screen?)
+- [Screen c'est quoi?](#screen-c'est-quoi)
+- [Création d'un screen](#création-d-un-screen)
+- [Quitter un screen](#quitter-un-screen)
 - [Lister les screens actifs](#Lister-les-screen-actifs)
 - [Se re attacher à un screen](#se-re-attacher-à-un-screen)
 - [Kill un screen](#kill-un-screen)
 
-## Screen c'est quoi?
+## Screen c'est quoi
 
 Screen est un utilitaire permettant d'ouvrir plusieurs terminaux dans une même console, de passer de l'un à l'autre et de les récupérer plus tard. 
 Il peut être pratique lorsque l'on souhaite lancer plusieurs commandes.
