@@ -6,15 +6,16 @@ Lors de la lecture de cet articule vous allez apprendre ce qu'est Screen et comm
 - [Screen c'est quoi?](#screen-c'est-quoi?)
 - [Création d'un screen](#création-d'un-screen?)
 - [Quitter un screen](#quitter-un-screen?)
-- [Lister les "screens" actifs](#Lister les "screens" actifs)
+- [Lister les screens actifs](#Lister-les-screen-actifs)
 - [Se re attacher à un screen](#se-re-attacher-à-un-screen)
 - [Kill un screen](#kill-un-screen)
 
 ## Screen c'est quoi?
 
 Screen est un utilitaire permettant d'ouvrir plusieurs terminaux dans une même console, de passer de l'un à l'autre et de les récupérer plus tard. 
-Il peut être pratique lorsque l'on souhaite lancer plusieurs commandes, et que la machine est a distance.
-Par exmeple, supposons qui vous ayez un serveur Minecraft d'allumé et que vous souhaiter tout de meme quitter la console du serveur pour faire autre chose. Alors, vous pouvez crée un screen avant pour que votre serveur minecraft run puis quitter se dernier pour faire autre chose en meme temps.
+Il peut être pratique lorsque l'on souhaite lancer plusieurs commandes.
+
+Par exmeple, supposons que vous ayez un serveur Minecraft d'allumé et que vous souhaitez tout de meme quitter la console du serveur pour faire autre chose. Alors, vous pouvez crée un screen avant pour que votre serveur minecraft run puis quitter se dernier pour faire autre chose en meme temps.
 
 ## Création d'un screen
 
@@ -35,7 +36,7 @@ $ apt-get install screen
  Pour quitter un screen riend de plus simple: [Ctrl+a+d] et vous voilà dans votre terminal de base.  
  Noter que si votre serveur minecraft run sur votre autre screen il reste allumé car le screen n'a pas été kill!
  
- ## Lister les "screens" actifs
+ ## Lister les screen actifs
  
  Vous pouvez lister tout les screen actifs avec la commande suivant
 
