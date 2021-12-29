@@ -20,14 +20,15 @@ Par exmeple, supposons que vous ayez un serveur Minecraft d'allumé et que vous 
 ## Création d'un screen
 
 Avant de crée votre premier screen penser à installer Screen
+
 ```
-$ apt-get install screen
+apt install screen
 ```
  Pour crée votre screen faites ceci:
  
- ```
- $ screen -S [nom du screen]
- ```
+```
+screen -S [nom du screen]
+```
  
  Vous voilà dans votre screen, près à lancer votre serveur minecraft comme vous l'aurais fais normalement
  
@@ -41,15 +42,15 @@ $ apt-get install screen
  Vous pouvez lister tout les screen actifs avec la commande suivant
 
 ```
- screen -ls
- ```
+screen -ls
+```
  
  ## Se re attacher à un screen
  
  Maintenant que vous avez quitter votre console minecraft et que vous souhaite y revenir faite le commande suivante
  
 ```
- screen -r [nom du screen]
+screen -r [nom du screen]
 ```
 
 Vous voilà dans votre console minecraft.
@@ -59,6 +60,5 @@ Vous voilà dans votre console minecraft.
 Pour kill un screen faite la commande suivant:
 
 ```
-$ screen -S [nom du screen] -X quit
-
-
+screen -S [nom du screen] -X quit
+```
