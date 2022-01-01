@@ -1,15 +1,15 @@
-# Skoali | tutoriels
+# Skoali | Documentation
 
-Ceci est un répértoire pour proposer des tutoriels qui seronts mis sur le site de Skoali ou bien proposer des modifications sur ceux existants.
+Ceci est un répértoire pour proposer des documentations
 **Pour mettre des images merci du suivre l'aide en bas du fichier.**
 
-# Ajouter un tutoriel
+# Ajouter une documentation
 
-Si vous voulez ajouter un tutoriel créez un fichier en .md avec le nom du tutoriel dans le répertoire /_posts/catégorie en utilisant le style Markdown (Voir aide ci-dessous.) puis faites une pull request.
+Si vous voulez ajouter un documentation créez un fichier en .md avec la date devant le nom (Ex : 2022-01-01-nom-de-la-doc.md) dans le répertoire /_posts/catégorie en utilisant le style Markdown (Voir aide ci-dessous.) puis faites une pull request.
 
 # Proposer une modification
 
-Si jamais vous voulez proposer une modification modifiez le fichier du tutoriel et faites une pull request.
+Si jamais vous voulez proposer une modification modifiez le fichier de la documentation et faites une pull request.
 
 # Aide Markdown :
 
@@ -124,11 +124,19 @@ Ce qui donne :
 
 Vous pouvez mettre des liens en faisant :
 ```
-Lien vers [Skoali](https://skoali.com).
+Lien vers [Google](https://google.com).
 ```
 
 Ce qui donne :
-Lien vers [Skoali](https://skoali.com).
+Lien vers [Google](https://google.com).
+
+Si vous ne souhaitez pas mettre de texte sur le lien vous pouvez faire :
+
+```
+<https://google.com>
+```
+
+Ce qui donne : <https://google.com>
 
 **Images :**
 
@@ -140,4 +148,4 @@ Ce qui donne :
 
 ![Nom de l'image (Non visible)](https://www.google.com/logos/doodles/2019/madeleine-bres-177th-birthday-6448018655019008-l.png)
 
-Pour en mettre dans les tutoriels mettez l'image dans le dossier /images du répertoire GitHUB et à la place du lien mettez : `/images/nom.png`
+Pour en mettre dans les documentations mettez l'image dans le dossier /images du répertoire GitHUB et à la place du lien mettez : `/images/nom.png`
