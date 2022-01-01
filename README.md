@@ -5,7 +5,7 @@ Ceci est un répértoire pour proposer des tutoriels qui seronts mis sur le site
 
 # Ajouter un tutoriel
 
-Si vous voulez ajouter un tutoriel créez un fichier en .md avec le nom du tutoriel dans ce répertoire en utilisant le markdown style Markdown (Voir aide ci-dessous.) puis faites une pull request.
+Si vous voulez ajouter un tutoriel créez un fichier en .md avec le nom du tutoriel dans le répertoire /_posts/catégorie en utilisant le style Markdown (Voir aide ci-dessous.) puis faites une pull request.
 
 # Proposer une modification
 
