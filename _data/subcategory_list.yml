@@ -1,0 +1,8 @@
+#Tihs file defines all categories that live within a parent category
+
+
+#subcategory-one:
+#  name: Subcategory One
+#  parent-category: using-subcategories
+#  parent-category-name: Using Subcategories
+#  description: This is your first subcategory!

@@ -1,0 +1,8 @@
+vps:
+  name: VPS
+web:
+  name: WEB
+gmod:
+  name: Garry's Mod
+nodejs:
+  name: NodeJS
