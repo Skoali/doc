@@ -6,3 +6,5 @@ gmod:
   name: Garry's Mod
 nodejs:
   name: NodeJS
+autres:
+  name: Autres
