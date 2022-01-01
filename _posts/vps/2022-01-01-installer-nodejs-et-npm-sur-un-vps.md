@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installer NodeJS & NPM sur un VPS"
+title: "Installer NodeJS & NPM sur un VPS (Debian/Ubuntu)a$"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

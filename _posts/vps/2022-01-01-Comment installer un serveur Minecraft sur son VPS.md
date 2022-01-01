@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comment installer un serveur Minecraft sur son VPS"
+title: "Comment installer un serveur Minecraft sur son VPS (Debian/Ubuntu)"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

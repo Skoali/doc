@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installer un serveur Web (nginx) et PHP sur son VPS."
+title: "Installer un serveur Web (nginx) et PHP sur son VPS (Debian/Ubuntu)"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
