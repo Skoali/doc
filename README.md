@@ -1,4 +1,4 @@
-# Skoali | tutoriels
+# Skoali | Documentation
 
 Ceci est un répértoire pour proposer des tutoriels qui seronts mis sur le site de Skoali ou bien proposer des modifications sur ceux existants.
 **Pour mettre des images merci du suivre l'aide en bas du fichier.**
@@ -124,11 +124,19 @@ Ce qui donne :
 
 Vous pouvez mettre des liens en faisant :
 ```
-Lien vers [Skoali](https://skoali.com).
+Lien vers [Google](https://google.com).
 ```
 
 Ce qui donne :
-Lien vers [Skoali](https://skoali.com).
+Lien vers [Google](https://google.com).
+
+Si vous ne souhaitez pas mettre de texte sur le lien vous pouvez faire :
+
+```
+<https://google.com>
+```
+
+Ce qui donne : <https://google.com>
 
 **Images :**
 
