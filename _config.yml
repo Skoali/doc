@@ -20,8 +20,8 @@
 
 title: Skoali - Documentation
 description: Documentation de Skoali
-baseurl: /doctest # the subpath of your site, e.g. /support
-url: https://julesdur.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+baseurl: / # the subpath of your site, e.g. /support
+url: https://help.skoali.com # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 content_type:  #Define whether this is a knowledge base, help center, or something else
