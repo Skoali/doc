@@ -35,6 +35,7 @@ sudo chown -Rfv www-data:www-data /opt/phpMyAdmin
 sudo nano /etc/apache2/sites-available/phpmyadmin.conf
 ```
 Entrez dans ce fichier le contenu suivant :
+
 ```
 <VirtualHost *:9000>
 ServerAdmin webmaster@localhost
@@ -49,6 +50,7 @@ ErrorLog ${APACHE_LOG_DIR}/error_phpmyadmin.log
 CustomLog ${APACHE_LOG_DIR}/access_phpmyadmin.log combined
 </VirtualHost>
 ```
+
 Ici c'est le port 9000 qui est utilisé, vous pouvez choisir le vôtre
 entrez la suite de touches suivantes "ctrl + x => y => enter"
 ```sudo nano /etc/apache2/ports.conf```
