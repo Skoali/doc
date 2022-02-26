@@ -58,13 +58,13 @@ sudo apt-get install -y aspnetcore-runtime-5.0
 
 Télécharger la derniere version du serveur privée [ici](https://ci.appveyor.com/project/Impostor/Impostor/branch/dev/artifacts) et prenez la version *"Impostor-Server_1.2.2-ci.124_linux-x64.tar"*, Ensuite avec un logiciel de décompression comme [Winrar](https://www.win-rar.com/start.html?&L=10) ou  [Zzip](https://www.01net.com/telecharger/windows/Utilitaire/compression_et_decompression/fiches/101457.html), Extrayer les fichiers sur votre bureau 
 
-![indice](../images/extractionimpostorserver.png)
+![indice]({{ site.baseurl }}/images/extractionimpostorserver.png)
 
 Ensuite, prenez les fichiers et ajoutez les dans un des fichiers de votre VPS grace a Filezilla ou WinSCP (voir tutoriel  [ici](https://github.com/Skoali/aide/blob/master/vps/Comment%20installer%20un%20serveur%20Minecraft%20sur%20son%20VPS.md) dans *- Utiliser un client SFTP et uploader manuellement sur notre serveur.*)
 
 Normalement votre vps devrait ressemblé a ceci :
 
-![indice2](../images/sftpimpostorserver.png)
+![indice2]({{ site.baseurl }}/images/sftpimpostorserver.png)
 
 **Modifiez config.json et renseignez-y votre ip**
 
@@ -90,7 +90,7 @@ Ensuite pour lancez votre serveur :
 
 Installez [ImpostorPatcher](https://ci.appveyor.com/api/buildjobs/1g7x9s6vkvr5wbqm/artifacts/build%2FImpostor-Patcher_1.2.2-ci.124_win-x64.zip), lancez le et renseignez-y votre ip :
 
-![image](../images/impostorpatcher.png)
+![image]({{ site.baseurl }}/images/impostorpatcher.png)
 
 **C'est bon !** Lancez amongus, choissisez le serveur **"Impostor"** et connectez vous-y, vous pouvez désormais jouer avec des mods, des plugins et presque sans lag. Si vous voulez savoir comment les installait, faites vos recherches sur google :
 
