@@ -34,4 +34,4 @@ category: web
 
 5. Vous pouvez donc cliquer sur le bouton Connexion qui se situe à coté de "Administration"
 
-:tada: Voici pour l'installation de WordPress sur votre site hébergé par skoali, en cas de problème vous pouvez venir sur le discord de Skoali ou bien me contacter via mp sur Discord  ( @Skyfr#3258 )
+:tada: Voici pour l'installation de WordPress sur votre site hébergé par Skoali, en cas de problème vous pouvez venir sur le discord de Skoali ou bien me contacter via mp sur Discord  ( @Skyfr#3258 )
