@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Changer le nom de domaine d'un site sur Plesk"
+description: "Changer le nom de domaine de son site sur le panel Plesk."
 date: 2022-01-01 15:30:00 +0100
 category: web
 ---

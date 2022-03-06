@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installer un client torrent (transmission) (Debian/Ubuntu)"
+description: "Installation du client torrent transmission sur un VPS sous Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

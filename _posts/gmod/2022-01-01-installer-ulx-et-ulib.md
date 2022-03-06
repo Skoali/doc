@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Installer ULX et ULIB"
+title: "Installer ULX et ULIB sur son serveur Garry's Mod"
+description: "Installation d'ULX et d'ULIB sur un serveur Garry's Mod"
 date: 2022-01-01 15:30:00 +0100
 category: gmod
 ---

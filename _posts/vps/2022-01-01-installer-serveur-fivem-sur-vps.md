@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installer un serveur FiveM sur un VPS (Debian/Ubuntu)"
+description: "Installation d'un serveur FiveM sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

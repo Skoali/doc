@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Installation de Python3 sur un VPS (Debian/Ubuntu)"
+title: "Installer Python3 sur un VPS (Debian/Ubuntu)"
+description: "Installation de Python3 sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

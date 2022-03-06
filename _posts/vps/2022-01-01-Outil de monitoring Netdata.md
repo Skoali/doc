@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Netdata : Un outil de monitoring simple et opensource"
+description: "Présentation et installation de Netdata, un outil de monitoring simple et opensource"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installer Plex sur un VPS (Debian/Ubuntu)"
+description: "Installation de Plex sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

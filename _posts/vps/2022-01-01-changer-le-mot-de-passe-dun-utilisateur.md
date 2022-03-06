@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Changer le mot de passe d'un utilisateur sur un VPS"
+description: "Changement du mot de passe d'un utilisateur sur un VPS avec la commande passwd"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

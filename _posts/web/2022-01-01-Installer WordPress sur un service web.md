@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Comment installer WordPress sur un web Skoali"
+title: "Comment installer WordPress sur un hébergement web Skoali"
+description: "Installation de WordPress sur un hébergement web Skoali via le panel Plesk."
 date: 2022-01-01 15:30:00 +0100
 category: web
 ---

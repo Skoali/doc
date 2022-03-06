@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Changer le nom de son serveur Garry's Mod"
+description: "Changement du nom d'un serveur Garry's Mod dans le server.cfg"
 date: 2022-01-01 15:30:00 +0100
 category: gmod
 ---

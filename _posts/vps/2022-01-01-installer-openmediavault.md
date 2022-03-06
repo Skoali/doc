@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installer openmediavault sur un VPS (Debian/Ubuntu)"
+description: "Installation d'openmediavault sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 19:20:00 +0100
 category: vps
 ---
