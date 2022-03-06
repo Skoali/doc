@@ -43,11 +43,7 @@
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
 {% endif %}
-{% if page.image %}
-  <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.image }}" property="og:image">
-{% else %}
-  <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/logo.png" property="og:image">
-{% endif %}
+  <meta content="{{ site.url }}{{ site.baseurl }}/assets/logo.png" property="og:image">
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
