@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installer un server Garry's Mod sur son VPS avec LinuxGSM (Debian/Ubuntu)"
+title: "Installer un server Garry's Mod sur son VPS (Debian/Ubuntu)"
 description: "Installation d'un server Garry's Mod sur un VPS Debian ou Ubuntu avec LinuxGSM"
 date: 2022-01-01 15:30:00 +0100
 category: vps
