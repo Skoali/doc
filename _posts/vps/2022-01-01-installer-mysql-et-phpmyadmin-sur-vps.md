@@ -55,7 +55,8 @@ CustomLog ${APACHE_LOG_DIR}/access_phpmyadmin.log combined
 Ici c'est le port 9000 qui est utilisé, vous pouvez choisir le vôtre
 entrez la suite de touches suivantes "ctrl + x => y => enter"
 ```sudo nano /etc/apache2/ports.conf```
-# Accédez à PhpMyAdmin.
+
+## Accédez à PhpMyAdmin.
  -Rendez-vous sur l'ip du vps + :9000 (le port choisis).
  -Entrez vos identifiants.
  -Voila! vous avez installé PhpMyAdmin sur votre VPS 
