@@ -5,7 +5,7 @@ date: 2022-01-01 19:20:00 +0100
 category: vps
 ---
 
-Tout d'abord il faudra **se connecter en SSH via Putty** ([Voir aide](/vps/Connexion-a-un-VPS-en-SSH-avec-Putty)) ou un autre logiciel .
+Tout d'abord il faudra **se connecter en SSH via Putty** ([Voir aide](/help/vps/Connexion-a-un-VPS-en-SSH-avec-Putty)) ou un autre logiciel .
 
 Une fois cela fait, il faudra entrer ces commandes pour commencer l'installation :
 
