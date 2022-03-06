@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Installer des modules NPM sur son hébergement NodeJS"
-description: "Installer des modules NPM sur son hébergement NodeJS"
+description: "Installer des modules NPM sur son hébergement NodeJS avec un package.json"
 date: 2022-01-01 15:30:00 +0100
 category: nodejs
 ---
