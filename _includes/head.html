@@ -41,7 +41,9 @@
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
-{% if page.url %}
+{% if page.title == "Home" %}
+  <meta content="{{ site.url }}/help" property="og:url">
+{% else %}
   <meta content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.date %}
