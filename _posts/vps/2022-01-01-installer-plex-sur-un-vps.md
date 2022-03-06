@@ -6,8 +6,6 @@ date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
 
-# Installer Plex sur un VPS.
-
 ## Plex c'est quoi
  
  Plex vous offre un seul endroit pour trouver et accéder à tous les médias qui vous intéressent. Des médias personnels sur votre propre serveur aux films et émissions gratuits et à la demande, en passant par la télévision en direct, les podcasts et les émissions Web, en passant par la musique en streaming, vous pouvez profiter de tout cela dans une seule application, sur n'importe quel appareil.
