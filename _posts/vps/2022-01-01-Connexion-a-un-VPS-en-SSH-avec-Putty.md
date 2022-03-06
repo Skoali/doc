@@ -6,11 +6,11 @@ date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
 
-# Introduction
+## Introduction
 
  Lors de la lecture de cet article, vous allez apprendre comment vous connecter en SSH à votre VPS à l'aide de Putty.
 
-# Sommaire
+## Sommaire
 - [Installation de Putty](#installation-de-putty)
 - [Préparation de donnès de connexion](#preparation-de-donnès-de-connexion)
 - [Connexion avec Putty](#connexion-avec-putty)
