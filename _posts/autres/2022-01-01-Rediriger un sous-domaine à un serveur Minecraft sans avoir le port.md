@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rediriger un sous-domaine à un serveur Minecraft sans avoir le port"
+title: "Lier son domaine à un serveur Minecraft sans avoir le port"
 description: "Rediriger un sous-domaine à un serveur Minecraft sans avoir le port avec un enregistrement SRV"
 date: 2022-01-01 15:30:00 +0100
 category: autres

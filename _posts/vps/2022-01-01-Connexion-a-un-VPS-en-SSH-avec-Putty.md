@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Connexion à un VPS en SSH avec Putty"
-description: "Se connecter à un VPS en SSH avec le logiciel Putty"
+description: "Se connecter à son VPS par SSH avec le logiciel Putty."
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

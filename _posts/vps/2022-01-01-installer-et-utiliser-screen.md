@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Installer et utiliser screen"
-description: "Installation de l'outil screen sur un VPS et aide à l'utilisation"
+description: "Installation de l'outil screen sur un VPS aide à l'utilisation et exemples de commandes."
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
