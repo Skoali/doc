@@ -83,7 +83,7 @@ Et enfin téléchargeons notre serveur avec la commande suivante :
 
 Si une petite barre avec des flèche avance, le fichier devrait être téléchargé. Le nom du fichier devrait être affiché juste ici : 
 
-![]({{ site.baseurl }}/images/NomDeFichierWget.png)
+![Nom de fichier WGET]({{ site.baseurl }}/images/NomDeFichierWget.png)
 
 Pour être sûr que tout est prêt et pour ne pas se tromper dans le futur, nous allons renommer notre fichier server.jar
 
