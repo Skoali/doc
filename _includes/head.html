@@ -19,9 +19,9 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.0.1/css/unicons.css">
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} | {{ site.brand_name }}
+      {{ site.title }}
     {% else %}
-      {{ page.title }}
+      {{ page.title }} | {{ site.brand_name }}
     {% endif %}
   </title>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
