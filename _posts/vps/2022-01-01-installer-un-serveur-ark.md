@@ -42,13 +42,13 @@ Ecrivez votre mot de pass
  
 ## Tips
  
-Obtenir la liste de commandes: `./arkserver`
+Obtenir la liste de commandes : `./arkserver`
  
-Stopper le serveur: `./arkserver stop`
+Stopper le serveur : `./arkserver stop`
  
-Redémarrer le serveur: `./arkserver restart`
+Redémarrer le serveur : `./arkserver restart`
  
-Mettre à jour du serveur: `./arkserver update`
+Mettre à jour du serveur : `./arkserver update`
  
  
  

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Connexion à un VPS en SSH avec Putty"
-description: "Se connecter à son VPS par SSH avec le logiciel Putty."
+description: "Se connecter à son VPS par SSH avec le logiciel Putty"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
@@ -18,34 +18,34 @@ category: vps
 ## Installation de Putty
 
 1) Cliquez [ici](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) afin d'installer Putty dans sa dernière version.  
-Après télèchargement, installez le logiciel, ouvrez-le, ça devrait ressembler à sa. 
+Après télèchargement, installez le logiciel, ouvrez-le, ça devrait ressembler à ça. 
 
 ![image]({{ site.baseurl }}/images/putty.png)
 
-## Préparation de donnès de connexion
+## Préparation de donnés de connexion
 
-1) Connectez vous à votre espace client.
-2) Cliquez sur la machine à la quelle vous souhaitais vous connecter. Vous devriez voir quelque chose comme sa.  
-En rouge, vous aurais l'ip de votre machine garder-la préciseuement, elle servira à vous connecter à votre vps.
+1) Connectez-vous à votre espace client.
+2) Cliquez sur la machine à laquelle vous souhaitais vous connecter. Vous devriez voir quelque chose comme sa.  
+En rouge, vous aurez l'IP de votre machine gardez-la précieusement, elle servira à vous connecter à votre VPS.
 ![image]({{ site.baseurl }}/images/managervpsip.png)
 
-3) Scrollez vers le bas et vérifiez que votre machine est belle et bien allumé, comme ci-dessous (Si ce n'est pas le cas démarrer-la):
+3) Scrollez vers le bas et vérifiez que votre machine est belle et bien allumée, comme ci-dessous (Si ce n'est pas le cas, démarrez-la):
 ![image]({{ site.baseurl }}/images/vpsstatus.png)
 
-4) Notez que lors de l'achat de votre vps, vous avez dût choisir le mot de passe de votre vps. Si vous ne vous en rappeler plus, réinitialiser votre vps à nouveau et l'option pour choisir un nouveau mot de passe devrais apparaitre. Mais attention, toute vos données seront effacer, mais si votre vps est vierge cela ne devrais pas causer de soucis pour vous.
+4) Notez que lors de l'achat de votre VPS, vous avez dû choisir le mot de passe de votre VPS. Si vous ne vous en rappelez plus, réinitialiser votre VPS à nouveau et l'option pour choisir un nouveau mot de passe devrait apparaitre. Mais attention, toutes vos données seront effacer, si votre VPS est vierge cela ne devrais pas causer de soucis pour vous.
 
 ## Connexion avec Putty
 
-Maintenant que vous avez l'ip de votre machine et son mot de passe vous êtes fin près à vous y connecter !
-1) Rendez vous sur Putty et dans le champs "Host Name (or Ip adress)" renseignez l'ip de votre vps.
+Maintenant que vous avez l'IP de votre machine et son mot de passe, vous êtes fin prêt à vous y connecter !
+1) Rendez-vous sur Putty et dans le champ "Host Name (or IP address)" renseignez l'IP de votre VPS.
 2) Pour les prochaines fois, donner un nom à votre session pour pouvoir y vous connecter plus facilement par la suite.
 ![image]({{ site.baseurl }}/images/puttysession.png )
 3) Cliquez sur "Save" pour enregistrer votre session.
-4) Selectionnez votre nouvelle session et cliquez sur "Open"
-5) Vous devriez avoir une fenêtre noir, mettez votre nom d'utilisateur (root par défaut) et appuyez sur entrer.
+4) Sélectionnez votre nouvelle session et cliquez sur "Open"
+5) Vous devriez avoir une fenêtre noire, mettez votre nom d'utilisateur (root par défaut) et appuyez sur entrer.
 ![image]({{ site.baseurl }}/images/sshloginas.png)
 
-6) Ensuite, une deuxième information devrais vous demander: le mot de passe
+6) Ensuite, une deuxième information devrais vous demander le mot de passe
 ![image]({{ site.baseurl }}/images/sshloginaspassword.png)
 
-7) Une fois votre mot de passe mis, appuyez sur entrer et voilà! Vous êtes à présent connecter en SSH sur votre VPS avec Putty.
+7) Une fois votre mot de passe mis, appuyez sur entrer et voilà ! Vous êtes à présent connecté en SSH sur votre VPS avec Putty.

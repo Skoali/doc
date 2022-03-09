@@ -26,7 +26,7 @@ Dans cet exemple nous allons créer un programme "hello World":
 
 Créez un fichier avec la commande `nano hello.py` (hello est le nom du fichier et .py l'extension)
 
-Une fois le fichier créé et ouvert ecrivez-y votre code:
+Une fois le fichier créé et ouvert, écrivez-y votre code :
 
 ```print("Hello, World!")```
 

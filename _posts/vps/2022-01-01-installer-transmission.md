@@ -28,8 +28,8 @@ Trouvez ensuite la ligne `"rpc-password": “mot de passe”`
 
 Remplacez ce qui se trouve entre les guillemets par un mot de passe de votre choix
 
-Quittez nano en faisant CTRL + X puis y puis la touche entrée pour sauvegardé
+Quittez nano en faisant CTRL + X puis y et ensuite la touche entrée pour sauvegarder
 
 Faites ensuite `sudo systemctl reload transmission-daemon` pour redémarrer transmission
 
-Rafraichissez la page et connectez vous avec votre nouveau mot de passe
+Rafraichissez la page et connectez-vous avec votre nouveau mot de passe

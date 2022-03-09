@@ -13,12 +13,12 @@ Pour commencer, nous allons vérifier que notre VPS est à jour avec cette comma
 
 Une fois ces commandes passées très rapidement ⚡, nous allons pouvoir installer Java.
 
-**Attention, cette commande ou ce nom de paquet ne peut être valable sur certains systèmes d'exploitation comme Debian 10. Il faudra effectuer des recherches supplémentaires sur comment l'installer sur votre système incompatible.** Pour ma part j'utilise Ubuntu 18.04, je vous le conseille car il est extrêmement compatible avec la plupart des logiciels de l'heure d'aujourd'hui.
+**Attention, cette commande ou ce nom de paquet ne peut être valable sur certains systèmes d'exploitation comme Debian 10. Il faudra effectuer des recherches supplémentaires sur comment l'installer sur votre système incompatible.** Pour ma part j'utilise Ubuntu 18.04, je vous le conseille car, il est extrêmement compatible avec la plupart des logiciels de l'heure d'aujourd'hui.
 Ducoup, pour installer Java 8 JDK, il suffit exécuter cette commande :
 
 `apt-get install openjdk-8-jdk wget screen -y`
 
-Si la commande ne fonctionne pas essayez celle-ci :
+Si la commande ne fonctionne pas, essayez celle-ci :
 ```
 apt install -y wget gnupg software-properties-common sudo
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
@@ -26,7 +26,7 @@ sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 apt update
 apt install adoptopenjdk-8-hotspot wget screen nano -y
 ```
-Et c'est bon ! Si vous n'avez eu aucune erreur et que plein de lignes ont défilées, notre Java est prêt à l'utilisation.
+Et c'est bon ! Si vous n'avez eu aucune erreur et que plein de lignes ont défilé, notre Java est prêt à l'utilisation.
 
 ### 2. Télécharger la bonne version de Minecraft
 
@@ -45,15 +45,15 @@ Maintenant le choix risque d'être très difficile... Il va falloir savoir quell
 | [Cuberite](https://cuberite.org/)                            | ✅            | ❌             | ❌    | ❌       | 1.12.2 - 1.8    |
 | [Glowstone](https://glowstone.net/)                          | ✅            | ✅             | ❌    | ✅       | 1.12.2          |
 
-Une fois que vous aurez choisi quelle version utilisée (Contribuez les connaisseurs :p), nous allons la télécharger sur notre VPS.
+Une fois que vous aurez choisi quelle version utiliser (Contribuez les connaisseurs :p), nous allons la télécharger sur notre VPS.
 
 Pour ceci nous avons 2 solutions :
 
 ###### - Utiliser un client SFTP et uploader manuellement sur notre serveur.
 
-Ici, nous allons utiliser une technique que je ne vous recommande pas du tout mais qui est quand même utile à savoir.
+Ici, nous allons utiliser une technique que je ne vous recommande pas du tout, mais qui est quand même utile à savoir.
 Mais d'abord mettons les choses au clair : N'utilisez plus FileZilla, il est gentil et facile, mais WinSCP c'est le meilleur.
-Donc téléchargez TOUT DE SUITE [WinSCP](https://winscp.net/eng/download.php). Voila, maintenant on va pouvoir continuer dans de bonnes conditions.
+Donc téléchargez TOUT DE SUITE [WinSCP](https://winscp.net/eng/download.php). Voilà, maintenant on va pouvoir continuer dans de bonnes conditions.
 
 Remplissez les cases comme décrites ci-dessous dans WinSCP puis cliquez sur "Connexion"
 
@@ -63,7 +63,7 @@ Remplissez les cases comme décrites ci-dessous dans WinSCP puis cliquez sur "Co
 
 Une fois connecté, il vous suffira de créer un nouveau dossier, aller dans celui-ci, glisser déposer le fichier du serveur Minecraft en question et de renommer avec un clic droit en `server.jar`.
 
-(Par défaut les fichiers de la console avec l'utilisateur root se trouvent dans le dossier /root !!).
+(Par défaut, les fichiers de la console avec l'utilisateur root se trouvent dans le dossier /root !!).
 
 C'est bon on peut passer à la suite !
 
@@ -71,7 +71,7 @@ C'est bon on peut passer à la suite !
 
 Ici, nous allons utiliser `wget` : 
 
-Donc, vous allez maintenant vous rendre sur le site du serveur Minecraft que vous avez choisi et copier le lien pour télécharger le fichier du serveur (2 si nécessaire). Normalement,  quand vous collez le lien dans la barre d'URL de votre navigateur internet le téléchargement du fichier devrait se télécharger : Cela veut dire que notre fichier est valide. Sinon essayez la méthode ci-dessus.
+Donc, vous allez maintenant vous rendre sur le site du serveur Minecraft que vous avez choisi et copier le lien pour télécharger le fichier du serveur (2 si nécessaire). Normalement,  quand vous collez le lien dans la barre d'URL de votre navigateur internet, le téléchargement du fichier devrait se télécharger : Cela veut dire que notre fichier est valide. Sinon essayez la méthode ci-dessus.
 
 Créons un dossier pour notre serveur Minecraft avec la commande :
 `mkdir LeNomDeMonServeurMinecraft`
@@ -81,7 +81,7 @@ Puis rendons-nous dans celui-ci avec cette commande :
 Et enfin téléchargeons notre serveur avec la commande suivante :
 `wget  <l'urldufichierduserveurminecraft>`
 
-Si une petite barre avec des flèche avance, le fichier devrait être téléchargé. Le nom du fichier devrait être affiché juste ici : 
+Si une petite barre avec des flèches avance, le fichier devrait être téléchargé. Le nom du fichier devrait être affiché juste ici : 
 
 ![Nom de fichier WGET]({{ site.baseurl }}/images/NomDeFichierWget.png)
 
@@ -92,7 +92,7 @@ Et c'est bon ! Nous allons maintenant pouvoir lancer notre serveur Minecraft �
 ### 3. Lancer notre serveur Minecraft
 
 Nous voici dans la dernière ligne droite : Celle de démarrer notre serveur et le laisser allumé.
-Premièrement, afin de le laisser allumer une fois que nous serons déconnecté de notre console SSH, il va falloir utiliser la commande screen.
+Premièrement, afin de le laisser allumer une fois que nous serons déconnectés de notre console SSH, il va falloir utiliser la commande screen.
 
 Donc, créons un screen avec un joli nom afin de pouvoir facilement le reconnaitre : 
 `screen -d -m -S <NomDeMonScreen>`
@@ -116,13 +116,13 @@ Notez quand même que vous devez modifier le `-Xmx10G` par le nombre de mémoire
 Une fois ceci fait vous pouvez faire **CTRL** + **X** puis **Y** et enfin **ENTRÉE**
 Et faites la commande `chmod +x start.sh` afin de donner la permission d'exécuter ce fichier.
 
-Quand vous ferez le commande `./start.sh`, notre script s'exécutera et lancera notre serveur Minecraft, hors au premier lancement il faut bien évidemment accepter l'EULA de Minecraft. Afin de ne pas vous embêter à vous reconnecter en SFTP, nous allons le modifier directement en SSH grâce à la commande 
+Quand vous ferez la commande `./start.sh`, notre script s'exécutera et lancera notre serveur Minecraft, hors au premier lancement, il faut bien évidemment accepter l'EULA de Minecraft. Afin de ne pas vous embêter à vous reconnecter en SFTP, nous allons le modifier directement en SSH grâce à la commande 
 `nano eula.txt`.
 Une fois dans le fichier, il vous suffira de modifier le `eula=false` en `eula=true` puis de refaire 
 **CTRL** + **X** puis **Y** et enfin **ENTRÉE**.
 
 C'est bon ! Si vous faites la commande `./start.sh`, votre serveur se lance comme par magie !
-Maintenant, sortons de notre screen afin de vaquer à d'autre occupations en faisant
+Maintenant, sortons de notre screen afin de vaquer à d'autres occupations en faisant
 
 **CTRL** + **A** puis **D** et enfin **ENTRÉE**.
 
@@ -130,7 +130,7 @@ Et 💨 on est sortis de notre serveur. Notez quand même (je vous le rappelle) 
 
 `screen -x <LeNomDeMonScreen>`
 
-D'ailleurs seconde info, si votre serveur se met à crasher *car vous n'avez pas choisit la bonne version de serveur* il vous suffit de faire CTRL + C afin de le tuer (n'utilisez pas ça tout les jours c'est pas foufou).
+D'ailleurs seconde info, si votre serveur se met à crasher *car vous n'avez pas choisi la bonne version de serveur* il vous suffit de faire CTRL + C afin de le tuer (n'utilisez pas ça tous les jours, c'est pas foufou).
 
 Voila.
 

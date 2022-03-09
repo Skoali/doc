@@ -6,15 +6,15 @@ date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
 
-## Rendez vous sur repertoire "home"
+## Rendez-vous sur répertoire "home"
 
 ```cd /home```
 
-## Creez un dossier nomé "ts"
+## Créez un dossier nommé "ts"
 
 ```mkdir ts```
 
-Allez dans le dossier que vous venez de creer 
+Allez dans le dossier que vous venez de créer 
 
 ```cd ts```
 
@@ -24,7 +24,7 @@ Vous pouvez à présent procéder à l’installation de TeamSpeak dans ce dossi
 
 ```wget https://files.teamspeak-services.com/releases/server/3.13.6/teamspeak3-server_linux_amd64-3.13.6.tar.bz2```
 
-Une fois le fichier téléchargé dans le dossier, vous devez extraire son contenu à l’aide de la commande suivante:
+Une fois le fichier téléchargé dans le dossier, vous devez extraire son contenu à l’aide de la commande suivante :
 
 ```tar xfvj teamspeak3-server_linux_amd64-3.3.1.tar.bz2```
 

@@ -6,14 +6,14 @@ date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
 
-1) Installez les dépendances
+## Installez les dépendances
 
 ```dpkg --add-architecture i386 && apt install curl wget file tar bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 steamcmd libsdl2-2.0-0:i386 -y```
 
 ![dpkgaddarchitecture]({{ site.baseurl }}/images/dpkgaddarchitecture.png)
 
 
-2) Créer un utilisateur pour le serveur CSGO :
+## Créer un utilisateur pour le serveur CSGO :
 
 ```adduser csgo``` (Valider avec entrer à toutes les questions)
 
@@ -21,13 +21,13 @@ Puis accéder à l'utilisateur : `su csgo`
 
 ![dpkgaddarchitecture]({{ site.baseurl }}/images/addusercsgo.png)
 
-3) Téléchargez le script d'installation de serveur
+## Téléchargez le script d'installation de serveur
 
 ```wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver```
 
 ![csgowgetlinuxgsm]({{ site.baseurl }}/images/csgowgetlinuxgsm.png)
 
-4) Installez le serveur de jeu.
+## Installez le serveur de jeu.
 
 
 ```./csgoserver install```

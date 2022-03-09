@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Installer Mysql et phpmyadmin sur un VPS (Debian/Ubuntu)"
-description: "Installation de Mysql et phpmyadmin (sous apache2) sur un VPS Debian ou Ubuntu"
+title: "Installer MySQL et phpmyadmin sur un VPS (Debian/Ubuntu)"
+description: "Installation de MySQL et phpmyadmin (sous apache2) sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
@@ -59,4 +59,4 @@ entrez la suite de touches suivantes "ctrl + x => y => enter"
 ## Accédez à PhpMyAdmin.
  -Rendez-vous sur l'ip du vps + :9000 (le port choisis).
  -Entrez vos identifiants.
- -Voila! vous avez installé PhpMyAdmin sur votre VPS 
+ -Voilà! vous avez installé PhpMyAdmin sur votre VPS 

@@ -24,7 +24,7 @@ Pour l'installer c'est très facile, il suffit de faire la commande suivante :
 
 Quand vous aurez le message "Press ENTER to build and install netdata to your system" appuyez sur entrer.
 
-Quand l'installation sera terminée vous aurez ce message :
+Quand l'installation sera terminée, vous aurez ce message :
 
 ![Netdata2]({{ site.baseurl }}/images/netdata2.png)
 
@@ -36,7 +36,7 @@ Exemple : http://123.256.789.012:19999
 
 Pour désinstaller Netdata :
 
-Commencez par télécharger le script de désinstallation avec la commande suivante et donnez lui les permissions d'éxecution :
+Commencez par télécharger le script de désinstallation avec la commande suivante et donnez-lui les permissions d'éxecution :
 
 ```
 wget https://raw.githubusercontent.com/netdata/netdata/master/packaging/installer/netdata-uninstaller.sh

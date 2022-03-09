@@ -9,7 +9,7 @@ category: vps
 Afin d’installer NodeJS & NPM faites : 
 ```sudo apt install nodejs npm```
 
-Une fois l’installation finie, vérifiez que ceux-ci sont installé avec ces commandes : `node -v et npm -v`
+Une fois l’installation finie, vérifiez que ceux-ci sont installés avec ces commandes : `node -v et npm -v`
 Vous verrez ainsi la version de NodeJS et NPM.
 
 Pour installer une dépendance, faites : `npm i [Le nom de la dépendance]`

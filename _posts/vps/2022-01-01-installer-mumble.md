@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Installer un seveur Mumble sur un VPS (Debian/Ubuntu)"
-description: "Installation d'un seveur Mumble sur un VPS Debian ou Ubuntu"
+title: "Installer un serveur Mumble sur un VPS (Debian/Ubuntu)"
+description: "Installation d'un serveur Mumble sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---

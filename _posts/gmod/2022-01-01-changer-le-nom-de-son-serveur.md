@@ -10,7 +10,7 @@ category: gmod
 
 * Éditez le fichier `server.cfg`.
 
-* Ajoutez :
+* Ajoutez ou modifiez :
 
 `"hostname" "Nom du serveur"`
 

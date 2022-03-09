@@ -13,16 +13,16 @@ category: nodejs
 
         Vous avez plusieurs solutions 
                 
-                - Si vous avez une bonne connexion, vous pouvez transferer tous vos modules à partir du SFTP.
-                - Transferer votre package.json (Je vous l'explique)
+                - Si vous avez une bonne connexion, vous pouvez transférer tous vos modules à partir du SFTP.
+                - Transférer votre package.json (Je vous l'explique)
 
 Donc, pour installer vos modules à partir de votre package.json, il vous faudra :
 
         - Supprimez vos anciens fichiers package.json et package.lock
-        - Tapez "npm init" dans votre terminal, ou invite de commandes
+        - Tapez "npm init" dans votre terminal ou invite de commandes
         - Entrez les informations demandées
         
-Une fois terminé, votre package.json sera crée, il devrait ressembler à quelque chose comme ça : 
+Une fois terminé, votre package.json sera créé, il devrait ressembler à quelque chose comme ça : 
         
         
  ```    
@@ -47,7 +47,7 @@ Une fois terminé, votre package.json sera crée, il devrait ressembler à quelq
 Si votre package.json ne ressemble pas à ça, c'est qu'il y a eu un problème,
 
 -----------------
-Si il est comme ça, vous pouvez supprimer l'ancien de votre hébergement et upload votre package.json que vous avez en local à partir du gestionnaire de fichiers sur le panel, ou en sftp.
+S'il est comme ça, vous pouvez supprimer l'ancien de votre hébergement et upload votre package.json que vous avez en local à partir du gestionnaire de fichiers sur le panel, ou en sftp.
 ----------------------------------
 
-*Si vous avez un soucis au niveau de ce tutoriel, passez sur le Discord de Skoali, et faites une demande d'entraide*
+*Si vous avez un souci au niveau de ce tutoriel, passez sur le Discord de Skoali, et faites une demande d'entraide*

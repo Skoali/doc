@@ -1,15 +1,15 @@
 # Skoali | Documentation
 
 Ceci est un répértoire pour proposer des documentations
-**Pour mettre des images merci du suivre l'aide en bas du fichier.**
+**Pour mettre des images, merci de suivre l'aide en bas du fichier.**
 
 # Ajouter une documentation
 
-Si vous voulez ajouter un documentation créez un fichier en .md avec la date devant le nom (Ex : 2022-01-01-nom-de-la-doc.md) dans le répertoire /_posts/catégorie en utilisant le style Markdown (Voir aide ci-dessous.) puis faites une pull request.
+Si vous voulez ajouter une documentation créez un fichier en .md avec la date devant le nom (Ex : 2022-01-01-nom-de-la-doc.md) dans le répertoire /_posts/catégorie en utilisant le style Markdown (Voir aide ci-dessous.) puis faites une pull request.
 
 # Proposer une modification
 
-Si jamais vous voulez proposer une modification modifiez le fichier de la documentation et faites une pull request.
+Si jamais vous voulez proposer une modification, modifiez le fichier de la documentation et faites une pull request.
 
 # Aide Markdown :
 
@@ -77,7 +77,7 @@ Exemple :
 Ceci est un bloc de code
 ```
 
-Vous pouvez aussi mettre du code dans une ligne avec ` entre la code.
+Vous pouvez aussi mettre du code dans une ligne avec ` entre le code.
 
 ```
 Exemple :
@@ -90,7 +90,7 @@ Voici un `code` dans une ligne
 
 ### Listes à puces :
 
-Vous pouvez faire des listes à puces en mettant * avant de chaque lignes.
+Vous pouvez faire des listes à puces en mettant * avant de chaque ligne.
 
 ```
 Exemple :
@@ -130,7 +130,7 @@ Lien vers [Google](https://google.com).
 Ce qui donne :
 Lien vers [Google](https://google.com).
 
-Si vous ne souhaitez pas mettre de texte sur le lien vous pouvez faire :
+Si vous ne souhaitez pas mettre de texte sur le lien, vous pouvez faire :
 
 ```
 <https://google.com>
@@ -148,4 +148,8 @@ Ce qui donne :
 
 ![Nom de l'image (Non visible)](https://www.google.com/logos/doodles/2019/madeleine-bres-177th-birthday-6448018655019008-l.png)
 
-Pour en mettre dans les documentations mettez l'image dans le dossier /images du répertoire GitHUB et à la place du lien mettez : `/images/nom.png`
+Pour en mettre dans les documentations mettez l'image dans le dossier /images du répertoire GitHub et à la place du lien mettez : `/images/nom.png`
+
+### Correction des fautes
+
+Le site https://www.corrector.co/fr/ peut aider à trouver les fautes d'orthographe ou de frappe dans l'article que vous avez rédigé.

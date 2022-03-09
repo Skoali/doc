@@ -8,7 +8,7 @@ category: vps
 
 ## Prérequis & dépendances 
 
-Pour suivre ce tutoriel vous devrez être sur l'un des systeme d'exploitation suivant : 
+Pour suivre ce tutoriel vous devrez être sur l'un des système d'exploitation suivant : 
 
 **Debian** : 9, 10 ou 11
 **Ubuntu** :  21.10, 21.04 (LTS), 20.10,   20.04 (LTS),  18.04 (LTS) ou 16.04 (LTS)
@@ -17,7 +17,7 @@ Pour commencer, nous allons vérifier que notre VPS est à jour et que les prér
 
  ``apt-get update && apt-get full-upgrade -y && apt install screen``
 
-Ensuite il faut installer .Net 5 qui permet de lancer le serveur among us privée :
+Ensuite, il faut installer .Net 5 qui permet de lancer le serveur among us privé :
 
 **Pour Debian :**
 
@@ -61,9 +61,9 @@ Télécharger la derniere version du serveur privée [ici](https://ci.appveyor.c
 
 ![indice]({{ site.baseurl }}/images/extractionimpostorserver.png)
 
-Ensuite, prenez les fichiers et ajoutez les dans un des fichiers de votre VPS grace a Filezilla ou WinSCP (voir tutoriel  [ici](https://github.com/Skoali/aide/blob/master/vps/Comment%20installer%20un%20serveur%20Minecraft%20sur%20son%20VPS.md) dans *- Utiliser un client SFTP et uploader manuellement sur notre serveur.*)
+Ensuite, prenez les fichiers et ajoutez-les dans un des fichiers de votre VPS grâce a Filezilla ou WinSCP (voir tutoriel  [ici](https://github.com/Skoali/aide/blob/master/vps/Comment%20installer%20un%20serveur%20Minecraft%20sur%20son%20VPS.md) dans *- Utiliser un client SFTP et uploader manuellement sur notre serveur.*)
 
-Normalement votre vps devrait ressemblé a ceci :
+Normalement votre VPS devrait ressembler à ceci :
 
 ![indice2]({{ site.baseurl }}/images/sftpimpostorserver.png)
 
@@ -71,29 +71,29 @@ Normalement votre vps devrait ressemblé a ceci :
 
 ## Lancer le serveur
 
-```chmod +x /path/vers/votre/Fichier.Server``` (modifier pour vous)
+```chmod +x /path/vers/votre/Fichier.Server``` (modifiez pour vous)
 
-Ensuite il vous faudra crée un screen pour revenir sur votre serveur :
+Ensuite, il vous faudra créer un screen pour revenir sur votre serveur :
 
 ```screen -S ServAmongus```
 
-Puis ensuite dirigez vous dans le fichier de l'instalation de votre serveur privée :
+Puis ensuite dirigez-vous dans le fichier de l'instalation de votre serveur privé :
 
-```cd /path/vers/votre/Fichier/``` (modifier pour vous)
+```cd /path/vers/votre/Fichier/``` (modifiez pour vous)
 
-Ensuite pour lancez votre serveur :
+Ensuite pour lancer votre serveur :
 
 ```./Impostor.Server```
 
 **Bravo vous avez crée votre serveur amongus !**
 
-## Connectez vous au serveur
+## Connectez-vous au serveur
 
 Installez [ImpostorPatcher](https://ci.appveyor.com/api/buildjobs/1g7x9s6vkvr5wbqm/artifacts/build%2FImpostor-Patcher_1.2.2-ci.124_win-x64.zip), lancez le et renseignez-y votre ip :
 
 ![image]({{ site.baseurl }}/images/impostorpatcher.png)
 
-**C'est bon !** Lancez amongus, choissisez le serveur **"Impostor"** et connectez vous-y, vous pouvez désormais jouer avec des mods, des plugins et presque sans lag. Si vous voulez savoir comment les installait, faites vos recherches sur google :
+**C'est bon !** Lancez amongus, choissisez le serveur **"Impostor"** et connectez-vous-y, vous pouvez désormais jouer avec des mods, des plugins et presque sans lag. Si vous voulez savoir comment les installait, faites vos recherches sur Google :
 
 - [Reddit du moddée](https://www.reddit.com/r/AmongUsMods/)
 - [Github du serveur privée](https://github.com/Impostor/Impostor)

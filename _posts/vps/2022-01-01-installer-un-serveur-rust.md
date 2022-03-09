@@ -42,12 +42,12 @@ wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm
 
 ## Tips
 
-Obtenir la liste de commandes: ``./rustserver``
+Obtenir la liste de commandes : ``./rustserver``
 
-Stopper le serveur: ``./rustserver stop``
+Stopper le serveur : ``./rustserver stop``
 
-Redémarrer le serveur: ``./rustserver restart``
+Redémarrer le serveur : ``./rustserver restart``
 
-Mettre à jour du serveur: ``./rustserver update``
+Mettre à jour du serveur : ``./rustserver update``
 
-Voir la cosole: ``./rustserver console``
+Voir la console : ``./rustserver console``

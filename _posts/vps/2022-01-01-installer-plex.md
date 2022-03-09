@@ -29,20 +29,20 @@ Accéder à Plex avec l'url "http://votreip:32400/web"
  
 Vous y accéder maintenant avec l'url "https://localhost:32400/web"
  
-Suite à cela connectez vous à votre compte plex (dans la partie reglages)
+Suite à cela connectez-vous à votre compte plex (dans la partie reglages)
  
 ![image]({{ site.baseurl }}/images/plexbibli.png)
  
 ## Ajoutez des bibliothèques
  
- Appuyez sur l'icône "+" à gauche, spécifiez le type de contenu, la langue, la descriptions et le dossier
+ Appuyez sur l'icône "+" à gauche, spécifiez le type de contenu, la langue, la description et le dossier
  
  ![image]({{ site.baseurl }}/images/plexbibli.png)
  
 ## Lancer votre serveur
  
-Pour lancer votre serveur entrez la commande: `service plexmediaserver start`
+Pour lancer votre serveur, entrez la commande : `service plexmediaserver start`
  
-Pour arrêter votre serveur entrez la commande: `service plexmediaserver stop`
+Pour arrêter votre serveur, entrez la commande : `service plexmediaserver stop`
  
-Pour redémarrer votre serveur entrez la commande: `service plexmediaserver restart`
+Pour redémarrer votre serveur, entrez la commande : `service plexmediaserver restart`
