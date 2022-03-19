@@ -8,11 +8,13 @@ category: vps
 
 ## Installation 
 
-> Debian :
+**Debian :**
 
-```apt install asciinema```
+```
+apt install asciinema
+```
 
-> Ubuntu :
+**Ubuntu :**
 
 ```
 sudo apt-add-repository ppa:zanchey/asciinema
@@ -20,9 +22,11 @@ sudo apt-get update
 sudo apt-get install asciinema
 ```
 
-> CentOS / Fedora :
+**CentOS / Fedora :**
 
-```yum install asciinema```
+```
+yum install asciinema
+```
 
 ## Lier son installation à un compte asciinema (Facultatif, mais conseillé)
 
