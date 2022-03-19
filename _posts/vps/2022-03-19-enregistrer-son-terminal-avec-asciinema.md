@@ -8,11 +8,11 @@ category: vps
 
 ## Installation 
 
-**Debian :**
+> Debian :
 
 ```apt install asciinema```
 
-**Ubuntu :**
+> Ubuntu :
 
 ```
 sudo apt-add-repository ppa:zanchey/asciinema
@@ -20,7 +20,7 @@ sudo apt-get update
 sudo apt-get install asciinema
 ```
 
-**CentOS / Fedora :**
+> CentOS / Fedora :
 
 ```yum install asciinema```
 
@@ -38,4 +38,4 @@ Pour arrêter un enregistrement, il faut faire les touches Ctrl + D pour faire e
 
 ## Exemple d'enregistrement
 
-[![asciicast](https://asciinema.org/a/7ZhYLqNKKIcc7nmeIrOHbUJwT.svg)](https://asciinema.org/a/7ZhYLqNKKIcc7nmeIrOHbUJwT)
+[![Demo asciinema](https://asciinema.org/a/F0WpQJoegWyXdKLnFjB3XuOPq.svg)](https://asciinema.org/a/F0WpQJoegWyXdKLnFjB3XuOPq)
