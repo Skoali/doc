@@ -25,7 +25,7 @@ url: https://skoali.com # the base hostname AND PROTOCOL for your site, e.g. htt
 permalink: /:categories/:title
 
 content_type:  #Define whether this is a knowledge base, help center, or something else
-use_authors: false #Set this to false to disable showing post authors
+use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: logo.png
 brand_name: Skoali
