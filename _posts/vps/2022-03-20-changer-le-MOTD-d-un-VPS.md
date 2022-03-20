@@ -11,7 +11,7 @@ category: vps
 Lors de la lecture de cet article vous allez apprendre comment changer le MOTD de votre VPS.
 
 ## Sommaire
-- [Qu'est-ce qu'un MOTD?](#un-motd-cest-quoi)
+- [Qu'est-ce qu'un MOTD ?](#un-motd-cest-quoi)
 - [Modification du MOTD](#modification-du-motd)
 
 ## Un MOTD c'est quoi?
@@ -28,7 +28,7 @@ Pour modifier ce dernier, veuillez passer à l'étape suivante.
 
 Copiez et collez la commande ci-dessous
 ```
-$  nano /etc/motd
+nano /etc/motd
 ```
 
 Mettez le MOTD de votre choix, par exemple.
