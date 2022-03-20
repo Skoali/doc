@@ -11,12 +11,12 @@ category: vps
 Lors de la lecture de cet article vous allez apprendre comment changer le MOTD de votre VPS.
 
 ## Sommaire
-- [Qu'est-ce qu'un MOTD?](#quest-ce-quun-motd?)
+- [Qu'est-ce qu'un MOTD?](#un-motd-cest-quoi)
 - [Modification du MOTD](#modification-du-motd)
 
-## Qu'est-ce qu'un MOTD?
+## Un MOTD c'est quoi?
 
-Le MOTD de votre message est le long message que vous voyez dès votre connexion au VPS.
+Le MOTD est le long message que vous voyez dès votre connexion au VPS.
 
 Exemple:
 
