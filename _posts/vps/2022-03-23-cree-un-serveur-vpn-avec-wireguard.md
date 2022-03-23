@@ -41,7 +41,7 @@ Pour supprimer un utilisateur, relancez le script et sélectionnez l'option 2, i
 
 ### Désinstaller WireGuard
 
-Le script permet également de désinstaller WireGuard, pour cela relancez-le et sélectionnez l'option 3, une confirmation vous sera alors demandée. Répondez oui (y) et le WireGuard sera supprimé.
+Le script permet également de désinstaller WireGuard, pour cela relancez-le et sélectionnez l'option 3, une confirmation vous sera alors demandée. Répondez oui (y) et WireGuard sera supprimé.
 
 Vous pouvez ensuite supprimé le script avec la commande suivante :
 
@@ -49,4 +49,4 @@ Vous pouvez ensuite supprimé le script avec la commande suivante :
 rm wireguard-install.sh
 ```
 
-Vous pouvez aussi manuellement les fichiers de configurations clients qui se trouvent dans /root. 
+Vous pouvez aussi supprimer manuellement les fichiers de configurations clients qui se trouvent dans /root. 
