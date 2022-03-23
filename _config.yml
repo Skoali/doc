@@ -87,3 +87,10 @@ plugins:
 sass:
   sass_dir:          _scss
   style:            :compressed
+
+
+webp:
+  enabled: true
+  quality: 75
+  img_dir: ["/images"]
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
