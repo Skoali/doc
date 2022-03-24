@@ -6,32 +6,32 @@ date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
 
-## 1) Mettre à jour le VPS
+## Mettre à jour le VPS
 
 `apt update`
 
-## 2) Créez un utilisateur pour accueillir votre serveur et connectez-vous.
+## Créez un utilisateur pour accueillir votre serveur et connectez-vous.
 
 ```
 adduser gta
 su gta
 ```
 
-## 3) Téléchargez le script d'installation
+## Téléchargez le script d'installation
 
 ```
 wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/3539-86d8fe5891dbdc38d43976e6a8afec97215530e8/fx.tar.xz
 ```
 
-## 4) Extraire le script.
+## Extraire le script.
 
 `apt install xz-utils && tar xvfJ fx.tar.xz && rm fx.tar.xz`
 
-## 5) Installation de CitizenFx.
+## Installation de CitizenFx.
 ```
 apt install git -y && git clone https://github.com/citizenfx/cfx-server-data.git server-data
 ```
-## 6) Création du fichier server.cfg.
+## Création du fichier server.cfg.
 
 `nano server.cfg`
 
@@ -109,5 +109,5 @@ set steam_webApiKey ""
 sv_licenseKey la clef
 ```
 
-## 7) Démarrer le serveur.
+## Démarrer le serveur.
 `bash /home/nomdecompte/run.sh server.cfg`

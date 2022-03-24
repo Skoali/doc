@@ -6,7 +6,7 @@ date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
 
-### 1. Mettre à Jour et installer les dépendances
+### Mettre à Jour et installer les dépendances
 
 Pour commencer, nous allons vérifier que notre VPS est à jour avec cette commande :
 `apt-get update; apt-get full-upgrade -y` : Pour vérifier les mises à jour.
@@ -28,7 +28,7 @@ apt install adoptopenjdk-8-hotspot wget screen nano -y
 ```
 Et c'est bon ! Si vous n'avez eu aucune erreur et que plein de lignes ont défilé, notre Java est prêt à l'utilisation.
 
-### 2. Télécharger la bonne version de Minecraft
+### Télécharger la bonne version de Minecraft
 
 Bon,
 Maintenant le choix risque d'être très difficile... Il va falloir savoir quelle version on a besoin. J'ai donc décidé de vous faire un petit tableau récapitulatif de plusieurs versions connues et modifiées de serveur Minecraft afin de vous orienter au mieux.
@@ -89,7 +89,7 @@ Pour être sûr que tout est prêt et pour ne pas se tromper dans le futur, nous
 
 Et c'est bon ! Nous allons maintenant pouvoir lancer notre serveur Minecraft 😋.
 
-### 3. Lancer notre serveur Minecraft
+### Lancer notre serveur Minecraft
 
 Nous voici dans la dernière ligne droite : Celle de démarrer notre serveur et le laisser allumé.
 Premièrement, afin de le laisser allumer une fois que nous serons déconnectés de notre console SSH, il va falloir utiliser la commande screen.
