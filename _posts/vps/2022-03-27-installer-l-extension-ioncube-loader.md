@@ -22,7 +22,7 @@ Pour éviter les questions supplémentaires, sélectionnez "Local install"
 
 Suivez ensuite les étapes affichées :
 
-![Installation d'ioncube]({{ site.baseurl }}/images/ioncube-install-instructions.png){:width="auto"}
+![Installation d'ioncube]({{ site.baseurl }}/images/ioncube-install-instructions.png){:width="83%"}
 
 * Télécharger l'archive contenant les loaders (En zip ou en tar.gz selon votre préférence)
 * Mettez le fichier de l'extension dans le répertoire indiqué (Pour moi /usr/lib/php/20190902) en fonction de votre version de PHP (Par exemple moi j'utilise PHP 7.4 je vais donc mettre le fichié "ioncube_loader_lin_7.4.so")
@@ -37,6 +37,6 @@ systemctl restart php*
 
 * Cliquez ensuite sur "click here to test the Loader" de l'étape 5, si le message "Loader Installed Successfully" s'affiche, vous avez réussi.
 
-![Ioncube loader installé]({{ site.baseurl }}/images/ioncube-loader-installed.png){:width="auto"}
+![Ioncube loader installé]({{ site.baseurl }}/images/ioncube-loader-installed.png){:width="83%"}
 
 * Supprimez ensuite le fichier loader-wizard.php de votre serveur WEB.
