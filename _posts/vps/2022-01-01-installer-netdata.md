@@ -12,7 +12,7 @@ Netdata et un outil de monitoring opensource et simple à installer qui vous aid
 
 ## Images & Demo
 
-![Netdata]({{ site.baseurl }}/images/netdata1.PNG)
+![Netdata]({{ site.baseurl }}/images/netdata1.PNG){:width="80%"}
 
 Voici un lien de démo si vous voulez essayer : https://london.my-netdata.io
 
