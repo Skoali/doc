@@ -40,5 +40,3 @@ systemctl restart php*
 ![Ioncube loader installé]({{ site.baseurl }}/images/ioncube-loader-installed.png)
 
 * Supprimez ensuite le fichier loader-wizard.php de votre serveur WEB.
-
-{% picture /images/ioncube-loader-installed.png %}
