@@ -33,7 +33,7 @@ Suivez ensuite les étapes affichées :
 systemctl restart php*
 ```
 
-## Tester Ioncube Loader
+### Tester Ioncube Loader
 
 * Cliquez ensuite sur "click here to test the Loader" de l'étape 5, si le message "Loader Installed Successfully" s'affiche, vous avez réussi.
 
