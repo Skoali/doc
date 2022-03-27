@@ -44,3 +44,5 @@ youtube-dl https://example.com/video
 ```
 youtube-dl -x https://example.com/video
 ```
+
+Vous pouvez arrêter un téléchargement à tout moment avec en faisant les touches Ctrl + C.
