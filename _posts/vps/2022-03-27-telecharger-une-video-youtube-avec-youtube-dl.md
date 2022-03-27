@@ -6,7 +6,7 @@ date: 2022-03-27 11:10:00 +0100
 category: vps
 ---
 
-youtube-dl permet de télécharger une vidéo de YouTube, Instagram, Twitch, TikTok, Twitter [Voir toute la liste](https://ytdl-org.github.io/youtube-dl/supportedsites.html) depuis le terminal d'une machine sous Linux.
+youtube-dl permet de télécharger une vidéo de YouTube, Instagram, Twitch, TikTok, Twitter [(Voir toute la liste)](https://ytdl-org.github.io/youtube-dl/supportedsites.html) depuis le terminal d'une machine sous Linux.
 
 Il télécharge les vidéos directement depuis les serveurs du site et possède aussi une option pour télécharger que le son d'une vidéo.
 
