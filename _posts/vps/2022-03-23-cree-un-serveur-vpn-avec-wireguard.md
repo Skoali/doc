@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installer WireGuard et configurer un serveur VPN (Debian/Ubuntu)"
+title: "Installer un serveur VPN WireGuard (Debian/Ubuntu)"
 description: "Installation WireGuard et configuration d'un serveur VPN avec un script d'installation."
 date: 2022-03-23 17:45:00 +0100
 category: vps
