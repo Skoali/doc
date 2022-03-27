@@ -12,7 +12,7 @@ category: vps
 dpkg --add-architecture i386 && apt install curl wget file tar bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 steamcmd libsdl2-2.0-0:i386 -y
 ```
 
-![dpkgaddarchitecture]({{ site.baseurl }}/images/dpkgaddarchitecture.png)
+![dpkgaddarchitecture]({{ site.baseurl }}/images/dpkgaddarchitecture.png){:width="80%"}
 
 
 ## Créer un utilisateur pour le serveur CSGO :

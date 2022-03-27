@@ -27,7 +27,7 @@ Après télèchargement, installez le logiciel, ouvrez-le, ça devrait ressemble
 1) Connectez-vous à votre espace client.
 2) Cliquez sur la machine à laquelle vous souhaitais vous connecter. Vous devriez voir quelque chose comme sa.  
 En rouge, vous aurez l'IP de votre machine gardez-la précieusement, elle servira à vous connecter à votre VPS.
-![image]({{ site.baseurl }}/images/managervpsip.png)
+![image]({{ site.baseurl }}/images/managervpsip.png){:width="80%"}
 
 3) Scrollez vers le bas et vérifiez que votre machine est belle et bien allumée, comme ci-dessous (Si ce n'est pas le cas, démarrez-la):
 ![image]({{ site.baseurl }}/images/vpsstatus.png)
