@@ -22,6 +22,8 @@ Pour que nous puissions continuer à proposer des serveurs Garry's Mod gratuitem
 
 ## Comment avoir un serveur Garry's Mod gratuit ?
 
-Pour le moment les serveurs Garry's Mod gratuits sont en phase de test et doivent donc être demandé par ticket Discord (/ticket).
-
-**Attention :** L'offre Garry's Mod gratuite étant en en phase de test, des risques de perte de données sont présents, le propriétaire doit donc sauvegarder lui-même les données qui lui semblent importantes.
+* Rendez-vous sur notre page de serveur Garry's Mod gratuit [(lien)](https://skoali.com/gmod-gratuit).
+* Appuyez sur le bouton pour commander.
+* Remplissez les informations et créez-vous un compte.
+* Accédez à votre panel.
+* Configurez et démarrez votre serveur.
