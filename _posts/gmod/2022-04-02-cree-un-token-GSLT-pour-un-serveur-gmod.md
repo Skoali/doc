@@ -16,7 +16,7 @@ Il aide également vos joueurs à trouver votre serveur, si l'adresse IP de votr
 
 ## Comment obtenir un Game Server Login Token (GSLT) ?
 
-- Rendez vous sur le lien suivant : (https://steamcommunity.com/...)[https://steamcommunity.com/dev/managegameservers?l=french]
+- Rendez vous sur le lien suivant : [https://steamcommunity.com/...](https://steamcommunity.com/dev/managegameservers?l=french)
 - Connectez vous à Steam
 - Rendez vous en bas de la page où il y a "Créer un nouveau compte de serveur de jeu"
 - Dans la première case (App ID) mettez 4000 (ID du jeu Garry's Mod)
