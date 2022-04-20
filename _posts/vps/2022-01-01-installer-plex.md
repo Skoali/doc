@@ -14,8 +14,8 @@ category: vps
  
 ```
 sudo apt-get install curl
-echo "deb http://shell.ninthgate.se/packages/debian squeeze main" | sudo tee -a /etc/apt/sources.list.d/plexmediaserver.list
-sudo curl http://shell.ninthgate.se/packages/shell-ninthgate-se-keyring.key | sudo apt-key add -
+sudo echo deb https://downloads.plex.tv/repo/deb ./public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
+sudo curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install plexmediaserver
 ```
