@@ -2,7 +2,7 @@
 layout: post
 title: "Présentation de notre offre de serveur Minecraft Gratuit."
 description: "Présentation de notre offre de serveur Minecraft Gratuit à vie."
-date: 2022-03-27 09:15:00 +0100
+date: 2022-06-09 15:15:00 +0100
 category: autres
 ---
 
@@ -17,7 +17,7 @@ Vous pouvez utiliser cette offre pour un petit serveur, qui, quand il grandira p
 Pour que nous puissions continuer à proposer des serveurs Minecraft gratuitement à tout le monde, nous avons défini quelques conditions pour l'obtenir :
 
 * Un seul serveur par personne.
-* Le serveur est éteint si aucuns joueurs ne s'y connecte pendant plus de 24 heures.
+* Le serveur est éteint tous les jours à 2 heures du matin.
 * La render distance est limitée.
 * Certaines fonctionnalités disponibles pour les serveurs payants ne le sont pas sur les serveurs gratuits (comme les bases de données ou les tâches planifiées).
 * Le support ce fait uniquement par notre [serveur Discord](https://discord.gg/554DCvV).
