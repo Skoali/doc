@@ -50,7 +50,7 @@ Un reverse Proxy NGINX peut servir pour avoir un certificat SSL (https)
 
 # Obtenir un certificat SSL avec "Let's Encrypt"
 
-![image]({{ site.baseurl }}/images/letsencrypt.png)
+![image]({{ site.baseurl }}/images/letsencrypt.webp)
 
 
 ### Istaller acme.sh

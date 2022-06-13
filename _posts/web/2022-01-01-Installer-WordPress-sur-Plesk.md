@@ -16,7 +16,7 @@ category: web
 
 
 
-![Bouton à appuyer]({{ site.baseurl }}/images/PleskInstallWP1.png)
+![Bouton à appuyer]({{ site.baseurl }}/images/PleskInstallWP1.webp)
 
 
 
@@ -28,7 +28,7 @@ category: web
 
    
 
-   ![Bouton à appuyer]({{ site.baseurl }}/images/PleskWp.png)
+   ![Bouton à appuyer]({{ site.baseurl }}/images/PleskWp.webp)
 
    
 

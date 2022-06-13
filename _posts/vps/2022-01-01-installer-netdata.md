@@ -12,7 +12,7 @@ Netdata et un outil de monitoring opensource et simple à installer qui vous aid
 
 ## Images & Demo
 
-![Netdata]({{ site.baseurl }}/images/netdata1.PNG){:width="80%"}
+![Netdata]({{ site.baseurl }}/images/netdata1.webp){:width="80%"}
 
 Voici un lien de démo si vous voulez essayer : https://london.my-netdata.io
 
@@ -26,7 +26,7 @@ Quand vous aurez le message "Press ENTER to build and install netdata to your sy
 
 Quand l'installation sera terminée, vous aurez ce message :
 
-![Netdata2]({{ site.baseurl }}/images/netdata2.png)
+![Netdata2]({{ site.baseurl }}/images/netdata2.webp)
 
 Vous pourrez désormais accéder à votre netdata via votre navigateur à l'IP de votre VPS sur le port 19999.
 

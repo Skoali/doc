@@ -10,17 +10,17 @@ category: web
 
 2. cliquez sur le bouton nommé "Connexion à Plesk Control Panel" 
 
-   ​	![Capture d'écran du bouton]({{ site.baseurl }}/images/ConnexionAPlesk.png)
+   ​	![Capture d'écran du bouton]({{ site.baseurl }}/images/ConnexionAPlesk.webp)
 
    
 
 3. cliquez sur le bouton "Paramètres d'hébergement" 
 
-![Capture d'écran du bouton]({{ site.baseurl }}/images/PleskParamétresHébergement.png)
+![Capture d'écran du bouton]({{ site.baseurl }}/images/PleskParamétresHébergement.webp)
 
 4. à droite du texte "Nom De Domaine" après le www. Entrez le nouveau nom de domaine
 
-![case pour le nom de domaine]({{ site.baseurl }}/images/PleskNomDeDomaine.png)
+![case pour le nom de domaine]({{ site.baseurl }}/images/PleskNomDeDomaine.webp)
 
 5. En bas de la page, cliquez sur le bouton APPLIQUER et OK pour que l'opération soit prise en compte
 

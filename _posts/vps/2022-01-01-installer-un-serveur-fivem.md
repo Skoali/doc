@@ -71,8 +71,8 @@ sets locale "root-AQ"
 
 # Set an optional server info and connecting banner image url.
 # Size doesn't matter, any banner sized image will be fine.
-#sets banner_detail "https://url.to/image.png"
-#sets banner_connecting "https://url.to/image.png"
+#sets banner_detail "https://url.to/image.webp"
+#sets banner_connecting "https://url.to/image.webp"
 
 # Set your server's hostname
 sv_hostname "FXServer, but unconfigured"
@@ -81,7 +81,7 @@ sv_hostname "FXServer, but unconfigured"
 #exec server_internal.cfg
 
 # Loading a server icon (96x96 PNG file)
-#load_server_icon myLogo.png
+#load_server_icon myLogo.webp
 
 # convars which can be used in scripts
 set temp_convar "hey world!"

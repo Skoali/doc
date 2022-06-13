@@ -27,7 +27,7 @@ permalink: /:categories/:title
 content_type:  #Define whether this is a knowledge base, help center, or something else
 use_authors: false #Set this to false to disable showing post authors
 
-brand_logo: logo.png
+brand_logo: logo.webp
 brand_name: Skoali
 header: Documentation
 subheader: Cherchez de l'aide dans notre documentation communautaire.

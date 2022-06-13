@@ -57,9 +57,9 @@ Donc téléchargez TOUT DE SUITE [WinSCP](https://winscp.net/eng/download.php). 
 
 Remplissez les cases comme décrites ci-dessous dans WinSCP puis cliquez sur "Connexion"
 
-![Interface de WinSCP]({{ site.baseurl }}/images/GUIWinSCP.png)
+![Interface de WinSCP]({{ site.baseurl }}/images/GUIWinSCP.webp)
 
-![Adresse IP du VPS]({{ site.baseurl }}/images/adresse-ip-vps.png)
+![Adresse IP du VPS]({{ site.baseurl }}/images/adresse-ip-vps.webp)
 
 Une fois connecté, il vous suffira de créer un nouveau dossier, aller dans celui-ci, glisser déposer le fichier du serveur Minecraft en question et de renommer avec un clic droit en `server.jar`.
 
@@ -83,7 +83,7 @@ Et enfin téléchargeons notre serveur avec la commande suivante :
 
 Si une petite barre avec des flèches avance, le fichier devrait être téléchargé. Le nom du fichier devrait être affiché juste ici : 
 
-![Nom de fichier WGET]({{ site.baseurl }}/images/NomDeFichierWget.png){:width="80%"}
+![Nom de fichier WGET]({{ site.baseurl }}/images/NomDeFichierWget.webp){:width="80%"}
 
 Pour être sûr que tout est prêt et pour ne pas se tromper dans le futur, nous allons renommer notre fichier server.jar
 

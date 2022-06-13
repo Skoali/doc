@@ -20,7 +20,7 @@ Le MOTD est le long message que vous voyez dès votre connexion au VPS.
 
 Exemple:
 
-![image]({{ site.baseurl }}/images/motd-vps.png){:width="80%"}
+![image]({{ site.baseurl }}/images/motd-vps.webp){:width="80%"}
 
 Pour modifier ce dernier, veuillez passer à l'étape suivante.
 

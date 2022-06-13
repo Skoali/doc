@@ -12,7 +12,7 @@ category: vps
 dpkg --add-architecture i386 && apt install curl wget file tar bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 steamcmd libsdl2-2.0-0:i386 -y
 ```
 
-![dpkgaddarchitecture]({{ site.baseurl }}/images/dpkgaddarchitecture.png){:width="80%"}
+![dpkgaddarchitecture]({{ site.baseurl }}/images/dpkgaddarchitecture.webp){:width="80%"}
 
 
 ## Créer un utilisateur pour le serveur CSGO :
@@ -21,13 +21,13 @@ dpkg --add-architecture i386 && apt install curl wget file tar bzip2 gzip unzip 
 
 Puis accéder à l'utilisateur : `su csgo`
 
-![dpkgaddarchitecture]({{ site.baseurl }}/images/addusercsgo.png)
+![dpkgaddarchitecture]({{ site.baseurl }}/images/addusercsgo.webp)
 
 ## Téléchargez le script d'installation de serveur
 
 ```wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver```
 
-![csgowgetlinuxgsm]({{ site.baseurl }}/images/csgowgetlinuxgsm.png)
+![csgowgetlinuxgsm]({{ site.baseurl }}/images/csgowgetlinuxgsm.webp)
 
 ## Installez le serveur de jeu.
 
@@ -36,4 +36,4 @@ Puis accéder à l'utilisateur : `su csgo`
 
 Entrez les informations demandées. L'installateur vous demandera d'entrer votre token, rendez vous sur https://steamcommunity.com/dev/managegameservers
 
-![csgoserverinstall]({{ site.baseurl }}/images/csgoserverinstall.png)
+![csgoserverinstall]({{ site.baseurl }}/images/csgoserverinstall.webp)

@@ -23,7 +23,7 @@ $ sudo apt update
 $ sudo apt install nginx
 ```
 2) Visiter l'ip de votre machine sur votre navigateur de rechather favoris.
-![image]({{ site.baseurl }}/images/welcomenginx.png)
+![image]({{ site.baseurl }}/images/welcomenginx.webp)
 
 3) Voilà, naviguer maintenant à ce dossier `cd /var/www/html` et modifier `index.html`
 
