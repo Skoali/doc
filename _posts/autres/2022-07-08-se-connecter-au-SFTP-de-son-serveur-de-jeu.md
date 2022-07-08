@@ -48,4 +48,4 @@ Vous serez ensuite connecté au SFTP de votre serveur de jeu :
 
 ![Winscp files]({{ site.baseurl }}/images/winscpfiles.webp){:width="80%"}
 
-* Si vous n'arrivez pas à vous connecter via le bouton "Launch SFTP", vous pouvez essayer de vous connecter directement en entrant vos identifiants sur votre client SFTP.
+> Si vous n'arrivez pas à vous connecter via le bouton "Launch SFTP", vous pouvez essayer de vous connecter directement en entrant vos identifiants sur votre client SFTP.
