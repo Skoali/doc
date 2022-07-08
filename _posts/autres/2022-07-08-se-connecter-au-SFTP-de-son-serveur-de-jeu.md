@@ -10,7 +10,7 @@ category: autres
 
 ### Quel client SFTP utiliser ?
 
-### Windows
+**Windows**
 
 Pour Windows, les deux grands clients SFTP sont FileZilla et WinSCP.
 
@@ -19,7 +19,7 @@ Pour Windows, les deux grands clients SFTP sont FileZilla et WinSCP.
 
 Nous vous conseillons WinSCP. Et les captures d'écrans de cette documentation serons des captures d'écrans de WinSCP.
 
-### MacOS
+**MacOS**
 
     * FileZilla : http://filezilla-project.org/download.php?type=client
     * Cyberduck : https://cyberduck.io/download
