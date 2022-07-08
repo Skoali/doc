@@ -2,7 +2,7 @@
 layout: post
 title: "Se connecter au SFTP de son serveur de jeu."
 description: "Se connecter au SFTP de son serveur de jeu."
-date: 2022-08-07 16:48:00 +0100
+date: 2022-07-08 16:48:00 +0100
 category: autres
 ---
 
