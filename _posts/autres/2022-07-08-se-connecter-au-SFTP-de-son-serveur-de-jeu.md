@@ -30,7 +30,7 @@ Sur le panel de votre serveur de jeu, allez dans le menu "Settings"
 
 Vous aurez ensuite "SFTP DETAILS" ou vous y trouverez vos identifiants de connexion SFTP :
 
-![Sftp Details Panel]({{ site.baseurl }}/images/SFTPDetailsPanel.webp)
+![Sftp Details Panel]({{ site.baseurl }}/images/SFTPDetailsPanel.webp){:width="80%"}
 
 Cliquez ensuite sur "Launch SFTP" afin de lancer le client SFTP.
 
@@ -46,6 +46,6 @@ Ensuite, il vous sera demander votre mot de passe :
 
 Vous serez ensuite connecté au SFTP de votre serveur de jeu :
 
-![Winscp files]({{ site.baseurl }}/images/winscpfiles.webp)
+![Winscp files]({{ site.baseurl }}/images/winscpfiles.webp){:width="80%"}
 
 * Si vous n'arrivez pas à vous connecter via le bouton "Launch SFTP", vous pouvez essayer de vous connecter directement en entrant vos identifiants sur votre client SFTP.
