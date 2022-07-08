@@ -14,15 +14,15 @@ category: autres
 
 Pour Windows, les deux grands clients SFTP sont FileZilla et WinSCP.
 
-    * FileZilla : http://filezilla-project.org/download.php?type=client
-    * WinSCP : http://winscp.net/download.php
+__FileZilla :__ http://filezilla-project.org/download.php?type=client
+__WinSCP :__ http://winscp.net/download.php
 
 Nous vous conseillons WinSCP. Et les captures d'écrans de cette documentation serons des captures d'écrans de WinSCP.
 
 **MacOS**
 
-    * FileZilla : http://filezilla-project.org/download.php?type=client
-    * Cyberduck : https://cyberduck.io/download
+__FileZilla :__ http://filezilla-project.org/download.php?type=client
+__Cyberduck :__ https://cyberduck.io/download
 
 ## Connexion au SFTP de votre serveur de jeu.
 
