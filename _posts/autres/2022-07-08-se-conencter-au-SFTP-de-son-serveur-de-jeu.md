@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Se connecter au SFTP de son serveur de jeu
-description: Se connecter au SFTP de son serveur de jeu
+title: "Se connecter au SFTP de son serveur de jeu"
+description: "Se connecter au SFTP de son serveur de jeu"
 date: "2022-07-08 18:02:00"
 category: autres
 ---
