@@ -8,7 +8,6 @@ category: autres
 
 ## Paramétrage d'un pointeur SRV
 
-
 Créez un enregistrement de type SRV chez votre fournisseur de nom de domaine et indiquez les informations suivantes :
 
 ```
