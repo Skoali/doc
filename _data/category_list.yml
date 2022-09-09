@@ -2,6 +2,8 @@ vps:
   name: VPS
 web:
   name: WEB
+minecraft:
+  name: Minecraft
 gmod:
   name: Garry's Mod
 nodejs:
