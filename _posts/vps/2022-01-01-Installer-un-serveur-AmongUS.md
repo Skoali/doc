@@ -57,7 +57,7 @@ sudo apt-get install -y aspnetcore-runtime-5.0
 
 ## Téléchargez le serveur
 
-Télécharger la derniere version du serveur privée [ici](https://ci.appveyor.com/project/Impostor/Impostor/branch/dev/artifacts) et prenez la version *"Impostor-Server_1.2.2-ci.124_linux-x64.tar"*, Ensuite avec un logiciel de décompression comme [Winrar](https://www.win-rar.com/start.html?&L=10) ou  [Zzip](https://www.01net.com/telecharger/windows/Utilitaire/compression_et_decompression/fiches/101457.html), Extrayer les fichiers sur votre bureau 
+Télécharger la derniere version du serveur privée : [Télecharger Impostor Server](https://ci.appveyor.com/project/Impostor/Impostor/branch/dev/artifacts) et prenez la version *"Impostor-Server_1.2.2-ci.124_linux-x64.tar"*, Ensuite avec un logiciel de décompression comme [Winrar](https://www.win-rar.com/start.html?&L=10) ou  [Zzip](https://www.01net.com/telecharger/windows/Utilitaire/compression_et_decompression/fiches/101457.html), Extrayer les fichiers sur votre bureau 
 
 ![indice]({{ site.baseurl }}/images/extractionimpostorserver.webp)
 
