@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Connexion à un VPS en SSH avec Putty"
-description: "Se connecter à son VPS par SSH avec le logiciel Putty"
+title: "Connexion à un VPS en SSH avec PuTTY"
+description: "Se connecter à son VPS par SSH avec le logiciel PuTTY"
 date: 2022-01-01 15:30:00 +0100
 category: vps
 ---
@@ -11,13 +11,13 @@ category: vps
  Lors de la lecture de cet article, vous allez apprendre comment vous connecter en SSH à votre VPS à l'aide de Putty.
 
 ## Sommaire
-- [Installation de Putty](#installation-de-putty)
+- [Installation de PuTTY](#installation-de-putty)
 - [Préparation de donnès de connexion](#preparation-de-donnès-de-connexion)
-- [Connexion avec Putty](#connexion-avec-putty)
+- [Connexion avec PuTTY](#connexion-avec-putty)
 
 ## Installation de Putty
 
-1) Cliquez [ici](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe) afin d'installer Putty dans sa dernière version.  
+1) La dernière version de PuTTY est disponible ici : [Télecharger PuTTY pour Windows](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe)
 Après télèchargement, installez le logiciel, ouvrez-le, ça devrait ressembler à ça. 
 
 ![image]({{ site.baseurl }}/images/putty.webp)
