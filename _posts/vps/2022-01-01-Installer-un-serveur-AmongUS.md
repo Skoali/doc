@@ -61,7 +61,7 @@ Télécharger la derniere version du serveur privée [ici](https://ci.appveyor.c
 
 ![indice]({{ site.baseurl }}/images/extractionimpostorserver.webp)
 
-Ensuite, prenez les fichiers et ajoutez-les dans un des fichiers de votre VPS grâce a Filezilla ou WinSCP (voir tutoriel  [ici](https://github.com/Skoali/aide/blob/master/vps/Comment%20installer%20un%20serveur%20Minecraft%20sur%20son%20VPS.md) dans *- Utiliser un client SFTP et uploader manuellement sur notre serveur.*)
+Ensuite, prenez les fichiers et ajoutez-les dans un des fichiers de votre VPS grâce a Filezilla ou WinSCP.
 
 Normalement votre VPS devrait ressembler à ceci :
 

@@ -20,7 +20,7 @@ Pour que nous puissions continuer à proposer des serveurs Minecraft gratuitemen
 * Le serveur est éteint tous les jours à 2 heures du matin.
 * La render distance est limitée.
 * Certaines fonctionnalités disponibles pour les serveurs payants ne le sont pas sur les serveurs gratuits (comme les bases de données ou les tâches planifiées).
-* Le support ce fait uniquement par notre [serveur Discord](https://discord.gg/554DCvV).
+* Le support ce fait uniquement par notre [serveur Discord](https://discord.com/invite/554DCvV).
 
 > La render distance est limitée pour limiter la consommation liée à la génération du monde.
 

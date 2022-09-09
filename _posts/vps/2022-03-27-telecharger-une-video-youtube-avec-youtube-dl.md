@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Télécharger une vidéo YouTube (ou autre) sur Linux avec youtube-dl"
+title: "Télécharger une vidéo YouTube (ou autre) avec youtube-dl"
 description: "Présentation de youtube-dl qui permet de télécharger une vidéo YouTube (ou autre) depuis son terminal Linux."
 date: 2022-03-27 11:10:00 +0100
 category: vps

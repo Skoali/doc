@@ -17,7 +17,7 @@ category: vps
 
 ## Installation de Putty
 
-1) Cliquez [ici](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) afin d'installer Putty dans sa dernière version.  
+1) Cliquez [ici](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe) afin d'installer Putty dans sa dernière version.  
 Après télèchargement, installez le logiciel, ouvrez-le, ça devrait ressembler à ça. 
 
 ![image]({{ site.baseurl }}/images/putty.webp)

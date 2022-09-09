@@ -35,13 +35,13 @@ Maintenant le choix risque d'être très difficile... Il va falloir savoir quell
 
 |                                                              | Performances | Compatibilité | Mods | Plugins | Version         |
 | ------------------------------------------------------------ | ------------ | ------------- | ---- | ------- | --------------- |
-| [PaperSpigot](https://papermc.io/) \| [Mirror](https://yivesmirror.com/downloads/paper) | ✅            | ✳️             | ❌    | ✅       | 1.15.x - 1.7.10 |
+| [PaperSpigot](https://papermc.io/) | ✅            | ✳️             | ❌    | ✅       | 1.15.x - 1.7.10 |
 | [Spigot](https://getbukkit.org/download/spigot)              | ⚠️            | ✅             | ❌    | ✅       | 1.15.x - 1.4.x  |
 | [CraftBukkit](https://getbukkit.org/download/craftbukkit)    | ⚠️            | ⚠️             | ❌    | ⚠️       | 1.15.x - 1.0.0  |
 | [CatServer](https://github.com/Luohuayu/CatServer/releases)  | ✅            | ✳️             | ✅    | ✳️       | 1.12.2          |
 | Thermos [Fichier1](https://github.com/CyberdyneCC/Thermos/releases/download/58/Thermos-1.7.10-1614-server.jar) [Fichier2](https://github.com/CyberdyneCC/Thermos/releases/download/58/libraries.zip) | ✅            | ✳️             | ✅    | ✅       | 1.7.10          |
-| [SpongeForge](https://www.spongepowered.org/downloads/spongeforge/stable/) | ✅            | ❌             | ✅    | ⚠️       | 1.12.2 - 1.10.2 |
-| [Forge](http://files.minecraftforge.net/)                    | ⚠️            | ✅             | ✅    | ❌       | 1.15.2 - 1.1    |
+| [SpongeForge](https://spongepowered.org/downloads/spongeforge/stable/) | ✅            | ❌             | ✅    | ⚠️       | 1.12.2 - 1.10.2 |
+| [Forge](https://files.minecraftforge.net/)                    | ⚠️            | ✅             | ✅    | ❌       | 1.15.2 - 1.1    |
 | [Cuberite](https://cuberite.org/)                            | ✅            | ❌             | ❌    | ❌       | 1.12.2 - 1.8    |
 | [Glowstone](https://glowstone.net/)                          | ✅            | ✅             | ❌    | ✅       | 1.12.2          |
 
