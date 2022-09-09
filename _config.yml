@@ -73,7 +73,6 @@ plugins:
   - jekyll-feed
   - jekyll-last-modified-at
   - jekyll-sitemap
-  - jekyll-algolia
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -88,8 +87,3 @@ plugins:
 sass:
   sass_dir:          _scss
   style:            :compressed
-
-algolia:
-   application_id: 0HACUBSFGQ
-   index_name: Skoali Doc
-   search_only_api_key: db5bec45ad617f59f5871a489e064a42

@@ -3,12 +3,6 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    algolia_html_extractor (2.6.4)
-      json (~> 2.0)
-      nokogiri (~> 1.10)
-    algoliasearch (1.27.5)
-      httpclient (~> 2.8, >= 2.8.3)
-      json (>= 1.5.1)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
@@ -39,15 +33,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-algolia (1.7.1)
-      algolia_html_extractor (~> 2.6)
-      algoliasearch (~> 1.26)
-      filesize (~> 0.1)
-      jekyll (>= 3.6, < 5.0)
-      json (~> 2.0)
-      nokogiri (~> 1.6)
-      progressbar (~> 1.9)
-      verbal_expressions (~> 0.1.5)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-last-modified-at (1.1.0)
@@ -114,7 +99,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.2.1)
-  jekyll-algolia
   jekyll-feed (~> 0.12)
   jekyll-last-modified-at
   jekyll-sitemap (~> 1.4)
