@@ -20,4 +20,4 @@ Il faudra ensuite redémarrer votre vps avec la commande `reboot`
 
 Attendez quelques minutes. Vous pouvez désormais accéder au **panel de OpenMediaVault** en tapant **l'ip de votre VPS** dans votre Navigateur Web. Utiliser `admin` comme **nom d'utilisateur** et `openmediavault`  en **mot de passe**. Vous pourrez le **personnaliser** plus tard en allant dans la roue `Paramètres` puis `Modifier le mot de passe` , en haut à droite de la page. **Ceci est fortement conseillé**.
 
-Pour savoir comment utiliser le panel de OpenMediaVault, je vous invite à lire <https://www.cachem.fr/nas-openmediavault-tuto-guide/> à partir de la section `Construction du RAID et volume de données`.
+Pour savoir comment utiliser le panel de OpenMediaVault, je vous invite à lire l'article suivant : [NAS - openmediavault (Tuto et prise en main) - Cachem](https://www.cachem.fr/nas-openmediavault-tuto-guide/) à partir de la section `Construction du RAID et volume de données`.
