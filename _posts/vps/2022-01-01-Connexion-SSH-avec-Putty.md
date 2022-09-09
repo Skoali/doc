@@ -18,6 +18,7 @@ category: vps
 ## Installation de Putty
 
 1) La dernière version de PuTTY est disponible ici : [Télecharger PuTTY pour Windows](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe)
+
 Après télèchargement, installez le logiciel, ouvrez-le, ça devrait ressembler à ça. 
 
 ![image]({{ site.baseurl }}/images/putty.webp)
