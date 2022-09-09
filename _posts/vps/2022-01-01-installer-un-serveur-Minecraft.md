@@ -41,7 +41,7 @@ Maintenant le choix risque d'être très difficile... Il va falloir savoir quell
 | [CatServer](https://github.com/Luohuayu/CatServer/releases)  | ✅            | ✳️             | ✅    | ✳️       | 1.12.2          |
 | Thermos [Fichier1](https://github.com/CyberdyneCC/Thermos/releases/download/58/Thermos-1.7.10-1614-server.jar) [Fichier2](https://github.com/CyberdyneCC/Thermos/releases/download/58/libraries.zip) | ✅            | ✳️             | ✅    | ✅       | 1.7.10          |
 | [SpongeForge](https://spongepowered.org/downloads/spongeforge/stable/) | ✅            | ❌             | ✅    | ⚠️       | 1.12.2 - 1.10.2 |
-| [Forge](https://files.minecraftforge.net/)                    | ⚠️            | ✅             | ✅    | ❌       | 1.15.2 - 1.1    |
+| [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)                    | ⚠️            | ✅             | ✅    | ❌       | 1.15.2 - 1.1    |
 | [Cuberite](https://cuberite.org/)                            | ✅            | ❌             | ❌    | ❌       | 1.12.2 - 1.8    |
 | [Glowstone](https://glowstone.net/)                          | ✅            | ✅             | ❌    | ✅       | 1.12.2          |
 
