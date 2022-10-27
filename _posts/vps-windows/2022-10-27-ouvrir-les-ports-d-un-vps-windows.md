@@ -82,7 +82,7 @@ Pour ouvrir plusieurs ports, répétez la commande en remplaçant le port par le
 
 ## Vérifier si le port est ouvert
 
-Vous pouvez vérifier si le port est ouvert en utilisant un site comme [canyouseeme.org](canyouseeme.org) ou [portchecker.co](portchecker.co).
+Vous pouvez vérifier si le port est ouvert en utilisant un site comme [canyouseeme.org](https://canyouseeme.org) ou [portchecker.co](https://portchecker.co).
 
 ## Re fermer les ports (Supprimer la règle)
 
