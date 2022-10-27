@@ -1,5 +1,7 @@
 vps:
   name: VPS Linux
+vps-windows:
+  name: VPS Windows
 web:
   name: WEB
 minecraft:
