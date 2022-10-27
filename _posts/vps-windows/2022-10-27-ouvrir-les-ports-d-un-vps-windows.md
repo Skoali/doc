@@ -24,25 +24,25 @@ Vous pouvez rechercher sur internet quel protocole est utilisé par votre servic
 
 1. Ouvrez "Pare-feu Windows Defender avec fonctions avancées de sécurité" en tapant "Pare-feu" dans la barre de recherche de Windows.
 
-[Screen recherche]
+![Screen Recherche Pare-Feu]({{ site.baseurl }}/images/recherchePareFeu.webp){:width="80%"}
 
 2. Cliquez sur "Régles de traffic entrant"
 
 3. Cliquez sur "Nouvelle règle"
 
-[Screen page pare-feu]
+![Screen page Pare-Feu]({{ site.baseurl }}/images/pagePareFeu.webp){:width="80%"}
 
 4. Sélectionnez "Port" puis "TCP ou UDP", sélectionnez ensuite "Ports locaux spécifiques", entrez ensuite le ou les numéros de ports que vous souhaitez ouvrir (vous pouvez séparer les ports par des virgules). Vous pouvez aussi sélectionner "Tous les ports" pour ouvrir tous les ports. Appuyez ensuite sur "Suivant".
 
-[Screen menu "protocoles et port"]
+![Screen page Pare-Feu Protocoles et ports]({{ site.baseurl }}/images/ProtocoleEtPortsPareFeu.webp){:width="80%"}
 
 5. Sélectionnez "Autoriser la connexion" puis appuyez sur "Suivant"
 
-[Screen menu "action"]
+![Screen page Pare-Feu menu action]({{ site.baseurl }}/images/ActionPareFeu.webp){:width="80%"}
 
 6. Sélectionnez toutes les cases puis appuyez sur "Suivant"
 
-[Screen menu "Profil"]
+![Screen page Pare-Feu Profile]({{ site.baseurl }}/images/ProfilPareFeu.webp){:width="80%"}
 
 7. Entrez un nom pour la règle qui vous servira à retenir quel service est concerné par cette règle. Appuyez ensuite sur "Terminer".
 
