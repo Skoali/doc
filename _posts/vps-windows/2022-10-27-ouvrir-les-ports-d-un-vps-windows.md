@@ -4,9 +4,7 @@ title: "Ouvrir des ports sur le pare-feu Windows."
 description: "Ouvrir les ports sur Windows (Par l'interface graphique, le CMD et le PowerShell)"
 date: 2022-10-27 15:35:30 +0100
 category: vps-windows
----
-
-# Ouvrir les ports sur Windows 
+--- 
 
 ## Pourquoi ouvrir ses ports ?
 
@@ -82,7 +80,7 @@ Pour ouvrir plusieurs ports, répétez la commande en remplaçant le port par le
 
 ## Vérifier si le port est ouvert
 
-Vous pouvez vérifier si le port est ouvert en utilisant un site comme [canyouseeme.org](canyouseeme.org) ou [portchecker.co](portchecker.co).
+Vous pouvez vérifier si le port est ouvert en utilisant un site comme [canyouseeme.org](https://canyouseeme.org) ou [portchecker.co](https://portchecker.co).
 
 ## Re fermer les ports (Supprimer la règle)
 
