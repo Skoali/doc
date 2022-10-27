@@ -3,7 +3,7 @@ layout: post
 title: "Comment installer l'extension PHP Ioncube Loader."
 description: "Installer l'extension PHP Ioncube Loader afin de décrypter des fichiers PHP."
 date: 2022-03-27 13:35:00 +0100
-category: vps-linux
+category: vps
 ---
 
 L'extension PHP Ioncube Loader permet de décrypter des fichiers cryptés (souvent utilisé par des logiciels propriétaires comme WHMCS).

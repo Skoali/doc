@@ -2,7 +2,7 @@
 layout: post
 title: "Installer rocket.chat sur son VPS."
 date: 2022-01-01 15:30:00 +0100
-category: vps-linux
+category: vps
 ---
 
 # Installer Rocket.chat sur un Debian et Ubuntu

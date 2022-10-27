@@ -3,7 +3,7 @@ layout: post
 title: "Installer un serveur VPN WireGuard (Debian/Ubuntu)"
 description: "Installation WireGuard et configuration d'un serveur VPN avec un script d'installation."
 date: 2022-03-23 17:45:00 +0100
-category: vps-linux
+category: vps
 ---
 
 Cette documentation utilise le script d'installation de WireGuard d'[@angristan](https://github.com/angristan/wireguard-install)

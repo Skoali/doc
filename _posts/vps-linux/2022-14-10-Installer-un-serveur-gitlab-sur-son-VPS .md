@@ -3,7 +3,7 @@ layout: post
 title: "Installer un serveur GitLab sur son VPS"
 description: "Installation d'un serveur GitLab sur un VPS Debian ou Ubuntu"
 date: 2022-10-25 11:55:00 +0100
-category: vps-linux
+category: vps
 ---
 
 # **Installer un serveur GitLab sur son VPS**

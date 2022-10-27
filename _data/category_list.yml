@@ -1,4 +1,4 @@
-vps-linux:
+vps:
   name: VPS Linux
 web:
   name: WEB

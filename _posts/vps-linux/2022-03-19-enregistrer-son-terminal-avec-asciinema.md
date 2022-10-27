@@ -3,7 +3,7 @@ layout: post
 title: "Enregistrer son terminal ou sa session SSH avec Asciinema."
 description: "Installation de Asciinema pour enregistrer son terminal ou sa session SSH et partager l'enregistrement."
 date: 2022-03-19 18:30:00 +0100
-category: vps-linux
+category: vps
 ---
 
 ## Installation 

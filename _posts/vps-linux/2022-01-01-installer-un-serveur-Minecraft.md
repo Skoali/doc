@@ -3,7 +3,7 @@ layout: post
 title: "Installer un serveur Minecraft sur son VPS (Debian/Ubuntu)"
 description: "Installation d'un serveur Minecraft sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
-category: vps-linux
+category: vps
 ---
 
 ### Mettre à Jour et installer les dépendances

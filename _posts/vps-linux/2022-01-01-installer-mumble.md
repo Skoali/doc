@@ -3,7 +3,7 @@ layout: post
 title: "Installer un serveur Mumble sur un VPS (Debian/Ubuntu)"
 description: "Installation d'un serveur Mumble sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 15:30:00 +0100
-category: vps-linux
+category: vps
 ---
 
 Afin d’installer un serveur mumble sur votre VPS, suivez ces étapes : 

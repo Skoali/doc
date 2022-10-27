@@ -3,7 +3,7 @@ layout: post
 title: "Télécharger une vidéo YouTube (ou autre) avec youtube-dl"
 description: "Présentation de youtube-dl qui permet de télécharger une vidéo YouTube (ou autre) depuis son terminal Linux."
 date: 2022-03-27 11:10:00 +0100
-category: vps-linux
+category: vps
 ---
 
 youtube-dl permet de télécharger une vidéo de YouTube, Instagram, Twitch, TikTok, Twitter, ... [(Voir toute la liste)](https://ytdl-org.github.io/youtube-dl/supportedsites.html) depuis le terminal d'une machine sous Linux.

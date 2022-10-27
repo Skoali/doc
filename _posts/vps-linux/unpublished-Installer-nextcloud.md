@@ -2,7 +2,7 @@
 layout: post
 title: "Installer Nextcloud sur un VPS Debian/Ubuntu"
 date: 2022-01-01 15:30:00 +0100
-category: vps-linux
+category: vps
 ---
 
 # Introduction

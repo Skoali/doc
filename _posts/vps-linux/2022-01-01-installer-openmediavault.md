@@ -3,7 +3,7 @@ layout: post
 title: "Installer openmediavault sur un VPS (Debian/Ubuntu)"
 description: "Installation d'openmediavault sur un VPS Debian ou Ubuntu"
 date: 2022-01-01 19:20:00 +0100
-category: vps-linux
+category: vps
 ---
 
 Tout d'abord il faudra **se connecter en SSH via Putty** ([Voir aide](/help/vps/Connexion-SSH-avec-Putty)) ou un autre logiciel .

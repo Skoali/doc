@@ -3,7 +3,7 @@ layout: post
 title: "Changer le message d'accueil (MOTD) d'un VPS Linux."
 description: "Personnaliser le message d'accueil (MOTD) lors d'une connexion SSH à un VPS Linux"
 date: 2022-03-20 15:30:00 +0100
-category: vps-linux
+category: vps
 ---
 
 ## Introduction

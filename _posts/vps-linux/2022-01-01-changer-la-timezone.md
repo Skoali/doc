@@ -3,7 +3,7 @@ layout: post
 title: "Changer l'heure (la timezone) d'un vps"
 description: "Changement de l'heure (la timezone) d'un vps avec la commande timedatectl"
 date: 2022-01-01 15:30:00 +0100
-category: vps-linux
+category: vps
 ---
 
 Pour vérifier la timezone de votre machine, effectuez `timedatectl`
