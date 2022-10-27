@@ -4,9 +4,7 @@ title: "Ouvrir des ports sur le pare-feu Windows."
 description: "Ouvrir les ports sur Windows (Par l'interface graphique, le CMD et le PowerShell)"
 date: 2022-10-27 15:35:30 +0100
 category: vps-windows
----
-
-# Ouvrir les ports sur Windows 
+--- 
 
 ## Pourquoi ouvrir ses ports ?
 
