@@ -1,5 +1,5 @@
-vps:
-  name: VPS
+vps-linux:
+  name: VPS Linux
 web:
   name: WEB
 minecraft:
