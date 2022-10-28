@@ -20,37 +20,37 @@ Vous pouvez rechercher sur internet quel protocole est utilisé par votre servic
 
 ### Méthode 1 : (Par l'interface graphique)
 
-1. Ouvrez "Pare-feu Windows Defender avec fonctions avancées de sécurité" en tapant "Pare-feu" dans la barre de recherche de Windows.
+- Ouvrez "Pare-feu Windows Defender avec fonctions avancées de sécurité" en tapant "Pare-feu" dans la barre de recherche de Windows.
 
 ![Screen Recherche Pare-Feu]({{ site.baseurl }}/images/recherchePareFeu.webp){:width="80%"}
 
-2. Cliquez sur "Régles de traffic entrant"
+- Cliquez sur "Régles de traffic entrant"
 
-3. Cliquez sur "Nouvelle règle"
+- Cliquez sur "Nouvelle règle"
 
 ![Screen page Pare-Feu]({{ site.baseurl }}/images/pagePareFeu.webp){:width="80%"}
 
-4. Sélectionnez "Port" puis "TCP ou UDP", sélectionnez ensuite "Ports locaux spécifiques", entrez ensuite le ou les numéros de ports que vous souhaitez ouvrir (vous pouvez séparer les ports par des virgules). Vous pouvez aussi sélectionner "Tous les ports" pour ouvrir tous les ports. Appuyez ensuite sur "Suivant".
+- Sélectionnez "Port" puis "TCP ou UDP", sélectionnez ensuite "Ports locaux spécifiques", entrez ensuite le ou les numéros de ports que vous souhaitez ouvrir (vous pouvez séparer les ports par des virgules). Vous pouvez aussi sélectionner "Tous les ports" pour ouvrir tous les ports. Appuyez ensuite sur "Suivant".
 
 ![Screen page Pare-Feu Protocoles et ports]({{ site.baseurl }}/images/ProtocoleEtPortsPareFeu.webp){:width="80%"}
 
-5. Sélectionnez "Autoriser la connexion" puis appuyez sur "Suivant"
+- Sélectionnez "Autoriser la connexion" puis appuyez sur "Suivant"
 
 ![Screen page Pare-Feu menu action]({{ site.baseurl }}/images/ActionPareFeu.webp){:width="80%"}
 
-6. Sélectionnez toutes les cases puis appuyez sur "Suivant"
+- Sélectionnez toutes les cases puis appuyez sur "Suivant"
 
 ![Screen page Pare-Feu Profile]({{ site.baseurl }}/images/ProfilPareFeu.webp){:width="80%"}
 
-7. Entrez un nom pour la règle qui vous servira à retenir quel service est concerné par cette règle. Appuyez ensuite sur "Terminer".
+- Entrez un nom pour la règle qui vous servira à retenir quel service est concerné par cette règle. Appuyez ensuite sur "Terminer".
 
 **Le port est maintenant ouvert !**
 
 ### Méthode 2 : (Par le PowerShell)
 
-1. Ouvrez PowerShell **en tant qu'Administrateur** en tapant "PowerShell" dans la barre de recherche de Windows.
+- Ouvrez PowerShell **en tant qu'Administrateur** en tapant "PowerShell" dans la barre de recherche de Windows.
 
-2. Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
+- Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
 
 ```powershell
 New-NetFirewallRule -DisplayName "[Nom de la règle]" -Direction Inbound -Action Allow -Protocol TCP -LocalPort [Port] -Profile Any
@@ -64,9 +64,9 @@ Pour ouvrir plusieurs ports, répétez la commande en remplaçant le port par le
 
 ### Méthode 3 : (Par le CMD)
 
-1. Ouvrez l'invite de commande **en administrateur** en tapant "CMD" dans la barre de recherche de Windows.
+- Ouvrez l'invite de commande **en administrateur** en tapant "CMD" dans la barre de recherche de Windows.
 
-2. Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
+- Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
 
 ```cmd
 netsh advfirewall firewall add rule name="[Nom de la règle]" dir=in action=allow protocol=TCP localport=[Port] profile=any
@@ -86,17 +86,17 @@ Vous pouvez vérifier si le port est ouvert en utilisant un site comme [canyouse
 
 ### Méthode 1 : (Par l'interface graphique)
 
-1. Ouvrez "Pare-feu Windows Defender avec fonctions avancées de sécurité" en tapant "Pare-feu" dans la barre de recherche de Windows.
+- Ouvrez "Pare-feu Windows Defender avec fonctions avancées de sécurité" en tapant "Pare-feu" dans la barre de recherche de Windows.
 
-2. Cliquez sur "Régles de traffic entrant".
+- Cliquez sur "Régles de traffic entrant".
 
-3. Cliquez sur la règle que vous souhaitez supprimer puis appuyez sur "Supprimer".
+- Cliquez sur la règle que vous souhaitez supprimer puis appuyez sur "Supprimer".
 
 ### Méthode 2 : (Par le PowerShell)
 
-1. Ouvrez PowerShell **en tant qu'Administrateur** en tapant "PowerShell" dans la barre de recherche de Windows.
+- Ouvrez PowerShell **en tant qu'Administrateur** en tapant "PowerShell" dans la barre de recherche de Windows.
 
-2. Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
+- Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
 
 ```powershell
 Remove-NetFirewallRule -DisplayName "[Nom de la règle]"
@@ -104,9 +104,9 @@ Remove-NetFirewallRule -DisplayName "[Nom de la règle]"
 
 ### Méthode 3 : (Par le CMD)
 
-1. Ouvrez l'invite de commande **en administrateur** en tapant "CMD" dans la barre de recherche de Windows.
+- Ouvrez l'invite de commande **en administrateur** en tapant "CMD" dans la barre de recherche de Windows.
 
-2. Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
+- Tapez la commande suivante en remplaçant les valeurs entre crochets par les valeurs correspondantes :
 
 ```cmd
 netsh advfirewall firewall delete rule name="[Nom de la règle]"
