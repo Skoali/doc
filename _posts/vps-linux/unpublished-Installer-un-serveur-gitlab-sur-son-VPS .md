@@ -40,54 +40,25 @@ apt dist-upgrade -y
 gitlab-ctl restart
 ```
 
-## Configuation du reverse proxy (Apache)
-
-- Crée un fichier de configuration
-```bash
-nano /etc/apache2/sites-available/gitlab.conf
+## Configuation du reverse proxy (Nginx)
+- Collez ce qui suit dans le fichier de configuration Nginx.
 ```
-- Collez ce qui suit, et vérifier les configuration de certificat SSL
+server {
+    server_name foo.example.com git.exemple.com;
+    rewrite ^/?(.*) https://%{SERVER_NAME}/$1 last;
+}
+server {
+    server_name foo.example.com git.exemple.com;
+    listen 443 ssl;
+    error_log /var/log/nginx/error.log;
+    access_log /var/log/nginx/access.log;
+    ssl_certificate /etc/letsencrypt/live/git.exemple.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/git.exemple.com/privkey.pem;
+    # *add* contents of the file listed under ssl_certificate from  /etc/letsencrypt/live/git.exemple.com/chain.pem;
+    rewrite ^/?(.*) https://%{SERVER_NAME}/$1 last;
+}
+  
+- Redémarrer Apache
 ```
-  <VirtualHost *:80>
-    ServerName git.exemple.com
-    ServerAdmin root@git.exemple.com
-
-    RewriteEngine On
-    RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
-</VirtualHost>
-
-<VirtualHost *:443>
-    ServerName git.exemple.com
-    ServerAdmin root@git.exemple.com
-
-    ProxyRequests Off
-    ProxyPreserveHost On
-    ProxyVia Full
-
-    <Proxy *>
-        Require all granted
-    </Proxy>
-
-    <Location />
-        ProxyPass http://127.0.0.1:6080/
-        ProxyPassReverse http://127.0.0.1:6080/
-    </Location>
-
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    LogLevel warn
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-
-    SSLEngine on
-    SSLCertificateFile /etc/letsencrypt/live/git.exemple.com/fullchain.pem
-    SSLCertificateKeyFile /etc/letsencrypt/live/git.exemple.com/privkey.pem
-    SSLCertificateChainFile /etc/letsencrypt/live/git.exemple.com/chain.pem
-</VirtualHost>
+$ systemctl restart nginx
 ```
-- Activons ce nouveau vhost
-  ```
-  $ ln -s /etc/apache2/sites-available/gitlab.conf /etc/apache2/sites-enabled/000-gitlab.conf
-  ```
- - Redémarrer Apache
-   ```
-  $ systemctl restart apache2
-  ```
