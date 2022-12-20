@@ -1,4 +1,11 @@
-# Comment se connecter à son VPS windows
+---
+layout: post
+title: "Comment se connecter à son VPS windows"
+description: "Comment se connecter à son VPS windows sur Windows, MacOS et LInux"
+date: 2022-12-20 14:22:39 +0100
+category: vps-windows
+---
+
 
 ## Depuis Windows
 - Tapez dans votre barre de recherche "**rdp**".
@@ -14,7 +21,7 @@
 - Cliquez sur "**New**"
 - Remplissez les champs demander comme ci-dessous:
 
-![image](https://user-images.githubusercontent.com/76696559/208733473-d01e08eb-2811-4db3-9850-d6ec7230486e.png)
+![image](https://user-images.githubusercontent.com/76696559/208735188-96941484-5e9e-4554-bee7-4b822a0ade8b.png)
 - Fermez simplement la fenêtre pour sauvgarder votre machine
 - Connectez-vous en selectrionnant la machine et en cliquant "**Start**"
 
