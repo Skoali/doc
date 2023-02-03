@@ -16,7 +16,7 @@ TTL : Auto / Par défaut
 Priorité : 3600
 Poids : 5
 Port : XXXXX (Votre port (le :XXXXX) aprés l'ip)
-Cible : srvXX.skoa.li (Le début de votre ip dans le port)
+Cible : srvXX.skoa.li (Le début de votre ip sans le port)
 ```
 
 Veuillez à remplacer "play" par le sous-domaine que vous utilisez pour se connecter à votre serveur
