@@ -26,7 +26,7 @@ category: vps-windows
 - Connectez-vous en selectrionnant la machine et en cliquant "**Start**"
 
 ## Depuis Linux
-- Installer [Remmina]([https://remmina.org/)](https://remmina.org/how-to-install-remmina/) et l’ouvrir.
+- Installer [Remmina](https://remmina.org/) et l’ouvrir.
 - Dans la barre “RDP”, tapez l’adresse IP de votre VPS Windows (fournie dans l’e-mail contenant vos identifiants de connexion) et appuyez sur Entrée.
 - Entrez les informations demandées (Nom d’utilisateur, mot de passe). Vous n’avez pas besoin de renseigner le Domaine.
 - Cliquez sur OK. Vous serez connecté à votre VPS.
