@@ -70,5 +70,5 @@ Ensuite, ajoutez la ligne suivante au fichier:
 
 -    [Certbot](https://certbot.eff.org/)
 -    [Let's Encrypt](https://letsencrypt.org/)
--    [Certbot pour Nginx](https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx)
--    [Certbot pour Apache](https://certbot.eff.org/lets-encrypt/ubuntubionic-apache)
+-    [Certbot pour Nginx](https://certbot.eff.org/instructions?ws=nginx&os=debianbuster)
+-    [Certbot pour Apache](https://certbot.eff.org/instructions?ws=apache&os=debianbuster)
