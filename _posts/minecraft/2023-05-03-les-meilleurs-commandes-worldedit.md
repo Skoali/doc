@@ -2,7 +2,7 @@
 layout: post
 title: "Les commandes les plus utiles de WorldEdit pour Minecraft"
 description: "Découvrez les commandes les plus utiles de WorldEdit pour modifier rapidement de grandes zones de terrain sur Minecraft."
-date: 2023-02-16 10:00:00 +0100
+date: 2023-05-03 11:28:18 +0100
 category: minecraft
 ---
 
